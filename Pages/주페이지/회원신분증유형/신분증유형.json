@@ -1,0 +1,469 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 76.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0
+    ],
+    "Count": 11
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,1": "신분증유형",
+    "4,1": "설명",
+    "7,6": "확인"
+  },
+  "AttachInfos": {
+    "2,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "신분증유형테이블",
+        "ColumnName": "신분증유형"
+      }
+    },
+    "4,6": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon"
+      },
+      "BindingInfo": {
+        "TableName": "신분증유형테이블",
+        "ColumnName": "설명"
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=신분증유형!A1"
+                      }
+                    ]
+                  },
+                  "value": "新增",
+                  "Id": "361d9556-0020-492d-92d9-885fe01df086"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "신분증유형테이블",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "ddd43b64-0b6b-4ca3-8845-6a9f28091502"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=신분증유형!A1"
+                      }
+                    ]
+                  },
+                  "value": "编辑",
+                  "Id": "df62bb66-bca0-4129-9cac-0bf09f5fab65"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "신분증유형테이블",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "b5e76d7c-0064-4859-b1d1-af6ab00f39d9"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "확인",
+        "ClickMode": 1
+      },
+      "CssName": "button"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "FontWeight": 1,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "FontWeight": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "FontWeight": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 5,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 5,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 5,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 5,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 5,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 5,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "微软雅黑",
+        "Bold",
+        "[AUTO]General",
+        "#FFA9A9A9",
+        "Top",
+        "#FF0000FF",
+        "Center",
+        "#FF2BC4CA",
+        "宋体"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        },
+        {
+          "Color": 7
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 2,
+      "2,6": 3,
+      "2,7": 4,
+      "2,8": 4,
+      "2,9": 4,
+      "2,10": 4,
+      "2,11": 4,
+      "2,12": 4,
+      "2,13": 4,
+      "2,14": 4,
+      "2,15": 4,
+      "2,16": 5,
+      "3,1": 6,
+      "3,2": 6,
+      "3,3": 6,
+      "3,4": 6,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 2,
+      "4,1": 0,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 2,
+      "4,6": 7,
+      "4,7": 8,
+      "4,8": 8,
+      "4,9": 8,
+      "4,10": 8,
+      "4,11": 8,
+      "4,12": 8,
+      "4,13": 8,
+      "4,14": 8,
+      "4,15": 8,
+      "4,16": 9,
+      "5,0": 10,
+      "5,1": 11,
+      "5,2": 12,
+      "5,3": 12,
+      "5,4": 12,
+      "5,5": 12,
+      "5,6": 13,
+      "5,7": 14,
+      "5,8": 14,
+      "5,9": 14,
+      "5,10": 14,
+      "5,11": 14,
+      "5,12": 14,
+      "5,13": 14,
+      "5,14": 14,
+      "5,15": 14,
+      "5,16": 15,
+      "5,17": 10,
+      "6,1": 2,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 2,
+      "6,9": 2,
+      "6,10": 2,
+      "6,11": 2,
+      "6,12": 2,
+      "6,13": 2,
+      "7,6": 16,
+      "7,7": 17,
+      "7,8": 17,
+      "7,9": 17,
+      "7,10": 17,
+      "7,11": 17,
+      "7,12": 17,
+      "7,13": 17,
+      "7,14": 17,
+      "7,15": 17,
+      "7,16": 18,
+      "8,6": 19,
+      "8,7": 20,
+      "8,8": 20,
+      "8,9": 20,
+      "8,10": 20,
+      "8,11": 20,
+      "8,12": 20,
+      "8,13": 20,
+      "8,14": 20,
+      "8,15": 20,
+      "8,16": 21
+    },
+    "SheetStyle": {
+      "FontFamily": 8
+    }
+  },
+  "Spans": [
+    "2,1,1,4",
+    "4,1,1,4",
+    "2,6,1,11",
+    "4,6,2,11",
+    "7,6,2,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "证件",
+    "AuthorizeInfo": {
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator",
+        "系统管理员"
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//nzWOd6ARfRgrW5LlsTWks6A4GNoiGsBS53VDU9ao+ZXRHlXeJCZXGDBtv2cl6IxGAaX5brn/NJL593okWuFAmG6k0p16vaq/VhPstr+vr+Am8j6B4c6oAIky3opLrAyVHIoO/fZ+3lArGtJRN4FnXOsTLFgErDIbnGSy3+IFEgcMMwmlfBionkZ45l3gkNWgpenaFsUE8F2R+aBwKXP/Xzc5M6dnmcGcjDPmh5+CHaS05a2OJ8sFPzxgPAOO6ukMUMYhHZ9EeBgYvcX3N193GdahqikOy0saWy7ktgHcSO/EaAxXZlkFMrkLbYJBUDr6VAdowT45UXl43MqrQqeAifLJuJ07tkoM6OZZC96OGrYdQWU4608D/B9cV1lL1WEXHMQlid3KVGuFRZzKt6Vyz8E9N0edc/KW5l+LOlySH+te6cQuG+EHfQCmf6NmtKsUi/PHhT9xvSmN74smLLMo5HKisjeO9aKDmWbL5uzxN9egv+u1WzAKv18+YDbJ70lZ+RhgTYxCPa1h15iBrA/sXjShq6vv63LcYz5AcAUhpmmyGEx6LKuHgzwUzw+RRm9OeiVglr/hbloKrK9Zrugs6MWdWljMIvwRkwX59yF92Eu9kM7/2rO/XwTRUjF8Ghq11/Hy3ROcjdVnq2aL0vCbHMVDaHytfl+qCRb9YjBEo4pPq5+W6SnUP6zDlHt5DL9xB4Q4ZpkRfNEFDas9oEXhEZa4hP1opLvxJ+PnRX1IyeGHh0jfIUVsgvQTLXnccdPZOntL9lKUlDItMAaZA3KHGWOfW4btu7kq+NoUQMF+o4+acjWOHWwbpgypcA95RwImjXVhHuhT/cQkKHN0y/kIS+FQvJoZqahkQKiTMhnS/6Nm3SEu5RYoMPEnxpju0u4xXswMuVUMWQhMnXiweRZN2g==|920

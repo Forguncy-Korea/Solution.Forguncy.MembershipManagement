@@ -1,0 +1,1510 @@
+{
+  "Rows": {
+    "Count": 14
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 68.0,
+          "IsHidden": true
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 68.0,
+          "IsHidden": true
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 68.0,
+          "IsHidden": true
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 131.0,
+          "IsHidden": true
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 131.0,
+          "IsHidden": true
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 131.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "Count": 35
+  },
+  "Values": {
+    "1,3": "회원카드포인트",
+    "4,3": "기존카드유형",
+    "7,3": "신규카드유형",
+    "10,9": "취소",
+    "10,20": "확인"
+  },
+  "Formulas": {
+    "10,29": "IF(ISERROR(ODATA(\"회원유형테이블?$select=ID&$filter=ID eq \"&IF(ISBLANK(AG10),\"null\",AG10))),\"\",ODATA(\"회원유형테이블?$select=ID&$filter=ID eq \"&IF(ISBLANK(AG10),\"null\",AG10)))"
+  },
+  "AttachInfos": {
+    "1,9": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "포인트"
+      }
+    },
+    "1,29": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "회원정보테이블",
+        "RowIndex": 1,
+        "ColumnIndex": 29,
+        "ColumnCount": 6,
+        "RowCount": 6,
+        "ColumnOperation": 1,
+        "ShowGridLine": true,
+        "Name": "양식1",
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 500,
+          "Id": "1f415eba-c8d4-460e-8f94-aa48357dd29f"
+        },
+        "TableLoadOnDemandInfo": {
+          "IsEnabled": true
+        }
+      }
+    },
+    "2,29": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "ID"
+      }
+    },
+    "2,30": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "포인트"
+      }
+    },
+    "2,31": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "회원번호"
+      }
+    },
+    "2,32": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "회원카드유형ID",
+        "RelationBinding": {
+          "RelatedTable": "회원유형테이블",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "회원유형"
+        }
+      }
+    },
+    "2,33": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "회원카드유형ID",
+        "RelationBinding": {
+          "RelatedTable": "회원유형테이블",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "등급"
+        }
+      }
+    },
+    "2,34": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "회원카드유형ID",
+        "RelationBinding": {
+          "RelatedTable": "회원유형테이블",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "최소기준"
+        }
+      }
+    },
+    "4,9": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "회원유형테이블",
+        "ValueColumnBindingInfo": {
+          "TableName": "회원유형테이블",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "회원유형테이블",
+          "ColumnName": "회원유형"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "회원카드업그레이드기록",
+        "ColumnName": "기존카드유형"
+      }
+    },
+    "7,9": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "회원유형테이블",
+        "ValueColumnBindingInfo": {
+          "TableName": "회원유형테이블",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "회원유형테이블",
+          "ColumnName": "회원유형"
+        },
+        "ItemsQuery": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "Condition1": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 2,
+            "ColumnBindingInfo": {
+              "TableName": "회원유형테이블",
+              "ColumnName": "등급"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=회원업그레이드!AF10"
+            },
+            "Id": "1ccc31ee-b237-489f-b6fb-2d0de0a43295"
+          },
+          "Condition2": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 5,
+            "ColumnBindingInfo": {
+              "TableName": "회원유형테이블",
+              "ColumnName": "최소기준"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=회원업그레이드!AE10"
+            },
+            "Id": "420d20c5-4d77-4806-b5f8-341fb6a027c8"
+          },
+          "Id": "601c6ffe-7ea3-43e0-92d2-743cf0d50569"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "회원카드업그레이드기록",
+        "ColumnName": "새카드유형"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "9,29": {
+      "BindingInfo": {
+        "TableName": "회원카드업그레이드기록",
+        "ColumnName": "ID"
+      }
+    },
+    "9,30": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "포인트"
+      }
+    },
+    "9,31": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "회원카드유형ID",
+        "RelationBinding": {
+          "RelatedTable": "회원유형테이블",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "등급"
+        }
+      }
+    },
+    "9,32": {
+      "BindingInfo": {
+        "TableName": "회원정보테이블",
+        "ColumnName": "회원카드유형ID"
+      }
+    },
+    "10,9": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "취소",
+        "ClickMode": 1
+      }
+    },
+    "10,20": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=회원업그레이드!A1"
+                      }
+                    ]
+                  },
+                  "value": "新增",
+                  "Id": "99da74ff-da9b-4ad9-bb4c-890dedcce6b9"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "회원카드업그레이드기록",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "기존카드유형",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=회원업그레이드!J5"
+                        }
+                      },
+                      {
+                        "ColumnName": "회원정보ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=회원업그레이드!AD3"
+                        }
+                      },
+                      {
+                        "ColumnName": "업그레이드날짜",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=TODAY()"
+                        }
+                      },
+                      {
+                        "ColumnName": "업그레이드시간",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=NOW()"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "회원정보테이블",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "회원카드유형ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=회원업그레이드!J8"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "09be6799-382d-4ba4-aea2-d3d0d82f3ef4"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "회원카드업그레이드기록",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "회원카드업그레이드기록",
+                        "ColumnName": "회원정보ID"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=회원업그레이드!AD3"
+                      },
+                      "Id": "7769a4b6-3b1b-4c29-b46e-dbd09fef4e48"
+                    },
+                    "UpdateValues": []
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "회원정보테이블",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "회원카드유형ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=회원업그레이드!J8"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "fc47e14b-a442-4b7d-842a-ee22b11a0cbd"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "확인",
+        "ClickMode": 1
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 5,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 5,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "Background": 10,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 11,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "Background": 10,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 11,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 10,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 11,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "Background": 10,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 11,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "Background": 10,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 11,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 10,
+        "FontFamily": 4,
+        "FontSize": 14.666666984558105,
+        "Foreground": 11,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "宋体",
+        "Normal",
+        "General",
+        "Center",
+        "微软雅黑",
+        "Bold",
+        "#FF000000",
+        "[AUTO]General",
+        "#FFA9A9A9",
+        "Left",
+        "#FF2BC4CA",
+        "#FFFFFFFF"
+      ],
+      "Borders": [
+        {
+          "Color": 8
+        },
+        {
+          "Color": 10
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "1,3": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 3,
+      "1,9": 4,
+      "1,10": 5,
+      "1,11": 5,
+      "1,12": 5,
+      "1,13": 5,
+      "1,14": 5,
+      "1,15": 5,
+      "1,16": 5,
+      "1,17": 5,
+      "1,18": 5,
+      "1,19": 5,
+      "1,20": 5,
+      "1,21": 5,
+      "1,22": 5,
+      "1,23": 5,
+      "1,24": 5,
+      "1,25": 5,
+      "1,26": 6,
+      "1,27": 0,
+      "1,28": 0,
+      "1,29": 7,
+      "1,30": 8,
+      "1,31": 8,
+      "1,32": 8,
+      "1,33": 9,
+      "1,34": 10,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 0,
+      "2,3": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 2,
+      "2,8": 3,
+      "2,9": 11,
+      "2,10": 12,
+      "2,11": 12,
+      "2,12": 12,
+      "2,13": 12,
+      "2,14": 12,
+      "2,15": 12,
+      "2,16": 12,
+      "2,17": 12,
+      "2,18": 12,
+      "2,19": 12,
+      "2,20": 12,
+      "2,21": 12,
+      "2,22": 12,
+      "2,23": 12,
+      "2,24": 12,
+      "2,25": 12,
+      "2,26": 13,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 14,
+      "2,30": 15,
+      "2,31": 15,
+      "2,32": 15,
+      "2,33": 1,
+      "2,34": 16,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 1,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,23": 0,
+      "3,24": 0,
+      "3,25": 0,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "3,29": 17,
+      "3,30": 18,
+      "3,31": 18,
+      "3,32": 19,
+      "3,34": 20,
+      "4,1": 21,
+      "4,2": 0,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,9": 4,
+      "4,10": 9,
+      "4,11": 9,
+      "4,12": 9,
+      "4,13": 9,
+      "4,14": 9,
+      "4,15": 9,
+      "4,16": 9,
+      "4,17": 9,
+      "4,18": 9,
+      "4,19": 9,
+      "4,20": 9,
+      "4,21": 9,
+      "4,22": 9,
+      "4,23": 9,
+      "4,24": 9,
+      "4,25": 9,
+      "4,26": 10,
+      "4,27": 0,
+      "4,28": 0,
+      "4,29": 17,
+      "4,30": 18,
+      "4,31": 18,
+      "4,32": 19,
+      "4,34": 20,
+      "5,1": 21,
+      "5,2": 0,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,9": 22,
+      "5,10": 23,
+      "5,11": 23,
+      "5,12": 23,
+      "5,13": 23,
+      "5,14": 23,
+      "5,15": 23,
+      "5,16": 23,
+      "5,17": 23,
+      "5,18": 23,
+      "5,19": 23,
+      "5,20": 23,
+      "5,21": 23,
+      "5,22": 23,
+      "5,23": 23,
+      "5,24": 23,
+      "5,25": 23,
+      "5,26": 24,
+      "5,27": 0,
+      "5,28": 0,
+      "5,29": 17,
+      "5,30": 18,
+      "5,31": 18,
+      "5,32": 19,
+      "5,34": 20,
+      "6,1": 21,
+      "6,2": 0,
+      "6,3": 0,
+      "6,4": 0,
+      "6,5": 0,
+      "6,6": 0,
+      "6,7": 0,
+      "6,9": 0,
+      "6,10": 0,
+      "6,11": 0,
+      "6,12": 0,
+      "6,13": 0,
+      "6,14": 0,
+      "6,15": 0,
+      "6,16": 0,
+      "6,17": 0,
+      "6,18": 0,
+      "6,19": 0,
+      "6,20": 0,
+      "6,21": 0,
+      "6,22": 0,
+      "6,23": 0,
+      "6,24": 0,
+      "6,25": 0,
+      "6,26": 0,
+      "6,27": 0,
+      "6,28": 0,
+      "6,29": 25,
+      "6,30": 26,
+      "6,31": 26,
+      "6,32": 27,
+      "6,33": 28,
+      "6,34": 29,
+      "7,1": 21,
+      "7,2": 0,
+      "7,3": 2,
+      "7,4": 2,
+      "7,5": 2,
+      "7,6": 2,
+      "7,7": 2,
+      "7,9": 4,
+      "7,10": 30,
+      "7,11": 30,
+      "7,12": 30,
+      "7,13": 30,
+      "7,14": 30,
+      "7,15": 30,
+      "7,16": 30,
+      "7,17": 30,
+      "7,18": 30,
+      "7,19": 30,
+      "7,20": 30,
+      "7,21": 30,
+      "7,22": 30,
+      "7,23": 30,
+      "7,24": 30,
+      "7,25": 30,
+      "7,26": 31,
+      "7,27": 0,
+      "7,28": 0,
+      "7,31": 1,
+      "7,33": 1,
+      "7,34": 1,
+      "8,1": 21,
+      "8,2": 0,
+      "8,3": 2,
+      "8,4": 2,
+      "8,5": 2,
+      "8,6": 2,
+      "8,7": 2,
+      "8,9": 32,
+      "8,10": 33,
+      "8,11": 33,
+      "8,12": 33,
+      "8,13": 33,
+      "8,14": 33,
+      "8,15": 33,
+      "8,16": 33,
+      "8,17": 33,
+      "8,18": 33,
+      "8,19": 33,
+      "8,20": 33,
+      "8,21": 33,
+      "8,22": 33,
+      "8,23": 33,
+      "8,24": 33,
+      "8,25": 33,
+      "8,26": 34,
+      "8,27": 0,
+      "8,28": 0,
+      "8,33": 1,
+      "8,34": 1,
+      "9,1": 21,
+      "9,2": 0,
+      "9,3": 0,
+      "9,4": 0,
+      "9,5": 0,
+      "9,6": 0,
+      "9,7": 0,
+      "9,8": 0,
+      "9,9": 0,
+      "9,10": 0,
+      "9,11": 0,
+      "9,12": 0,
+      "9,13": 0,
+      "9,14": 0,
+      "9,15": 0,
+      "9,16": 0,
+      "9,17": 0,
+      "9,18": 0,
+      "9,19": 0,
+      "9,20": 0,
+      "9,21": 0,
+      "9,22": 0,
+      "9,23": 0,
+      "9,24": 0,
+      "9,25": 0,
+      "9,26": 0,
+      "9,27": 0,
+      "9,28": 0,
+      "9,29": 0,
+      "9,30": 0,
+      "9,31": 0,
+      "9,32": 1,
+      "10,7": 0,
+      "10,8": 0,
+      "10,9": 35,
+      "10,10": 36,
+      "10,11": 36,
+      "10,12": 36,
+      "10,13": 36,
+      "10,14": 36,
+      "10,15": 37,
+      "10,16": 18,
+      "10,17": 15,
+      "10,19": 1,
+      "10,20": 38,
+      "10,21": 39,
+      "10,22": 39,
+      "10,23": 39,
+      "10,24": 39,
+      "10,25": 39,
+      "10,26": 40,
+      "10,32": 0,
+      "10,33": 0,
+      "10,34": 0,
+      "11,7": 0,
+      "11,8": 0,
+      "11,9": 41,
+      "11,10": 42,
+      "11,11": 42,
+      "11,12": 42,
+      "11,13": 42,
+      "11,14": 42,
+      "11,15": 43,
+      "11,16": 18,
+      "11,17": 15,
+      "11,19": 1,
+      "11,20": 44,
+      "11,21": 45,
+      "11,22": 45,
+      "11,23": 45,
+      "11,24": 45,
+      "11,25": 45,
+      "11,26": 46,
+      "11,33": 1,
+      "11,34": 1,
+      "12,1": 21,
+      "12,2": 0,
+      "12,3": 0,
+      "12,4": 0,
+      "12,5": 0,
+      "12,6": 0,
+      "12,7": 0,
+      "12,8": 0,
+      "12,9": 0,
+      "12,10": 0,
+      "12,11": 0,
+      "12,12": 0,
+      "12,13": 0,
+      "12,14": 0,
+      "12,15": 0,
+      "12,16": 0,
+      "12,17": 0,
+      "12,18": 0,
+      "12,19": 0,
+      "12,20": 0,
+      "12,21": 0,
+      "12,22": 0,
+      "12,23": 0,
+      "12,24": 0,
+      "12,25": 0,
+      "12,26": 0,
+      "12,27": 0,
+      "12,28": 0,
+      "12,33": 1,
+      "12,34": 1,
+      "13,1": 21,
+      "13,2": 0,
+      "13,3": 0,
+      "13,4": 0,
+      "13,5": 0,
+      "13,6": 0,
+      "13,7": 0,
+      "13,8": 0,
+      "13,9": 0,
+      "13,10": 0,
+      "13,11": 0,
+      "13,12": 0,
+      "13,13": 0,
+      "13,14": 0,
+      "13,15": 0,
+      "13,16": 0,
+      "13,17": 0,
+      "13,18": 0,
+      "13,19": 0,
+      "13,20": 0,
+      "13,21": 0,
+      "13,22": 0,
+      "13,23": 0,
+      "13,24": 0,
+      "13,25": 0,
+      "13,26": 0,
+      "13,27": 0,
+      "13,28": 0,
+      "13,32": 0,
+      "13,33": 0,
+      "13,34": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,9,2,18",
+    "4,3,2,5",
+    "7,3,2,5",
+    "7,9,2,18",
+    "10,9,2,7",
+    "10,20,2,7",
+    "3,29,4,6",
+    "4,9,2,18",
+    "1,3,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=회원업그레이드!A1"
+                    }
+                  ]
+                },
+                "value": "新增",
+                "Id": "01bc1767-7938-46be-91c3-d6f8b5082124"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=회원업그레이드!AD11"
+                    }
+                  ]
+                },
+                "value": "%Null%",
+                "compareType": 1,
+                "Id": "8e6f2de5-550b-48c6-8fe1-b53c7bb8b3c4"
+              },
+              "Id": "8b5e5985-1fca-4a1d-b68e-6980059b0abe"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=회원업그레이드!J5"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=회원업그레이드!AD11"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ID": "748d9352-720a-48f3-96bf-ed0ca12c1908"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator",
+        "系统管理员"
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//22BH0hhi4MtX9ZU9wByUH2omoTeva+JN1YvFTR/B2YgGTuFa1udbyqCHwhvTuW2iXzy+80aUDkfTZ3OOplRLs2vWguEut26HrUZgkm84HQMbo0injFLYqbBRDWDeq+XiQqcmzcGy8FzzxqBQovXga6JI8gtehoLGCNGDR/GWeZzwB7uy4bDeS1y5f5QVC8vWcrXiecNSmDLUg3xeF5i2oSxSqHFanJnZzzNcP7QbGUXV1tD1v5+rjiwKXzhN5TebzBsOGms5HXwEonT3zUeDjAxCH3Ip0CQCKFoiiMPBRIhQon6NFzCJb2TUD/n7kXy5nXxGHLPsK1K817eV1FfM8MEW0xmsIzWQJ3WzpKRA09EBVRYQ4evaQZ/TYrtgM9cbl0sUTvYP5ugqd5DtTTc9gibO0qhTGmctMkKZppuonmej3+Mgx5zA6o3/XZ/dBm9urvtOqOFI0lIRi59efUYo1W7bOYOUX9m95mTUwg00cefvUbYTsZulf5yJCNNUvEIHuF49U1BYajcuu861kp5mbQ/MRqp1/OXjMO6OFClEdHIATs25B7EtwhzxyaV1PDmNwu3r/1cGbdUxbIbFWs1SA3x1jy7BUYcFwujUh8A8uG+VpGaCxI5pRA0NJirSwdYHPqBKfhtGw0teJsGVVgeUq55uU3lHq4wvgjhcqnq68XWcjmrPxRlVQIT0B3iGD87LNOq9HOnzoyO773VVoUqhHGKhXxHAu2ZO70RQJt8mtjWjQD+R6oVscdAwDA7ZFcj5hPwrBDNB35e+uLKt2jjX2bBA4XnyUOChhYJCkjwrBb/mlKPJITvrzmuxU5S2WD+h/663F+RWzJRcjFsvqyWezI1Waoa7z+7UGpO6FpReUHjiZcIDYAXMxW2ZOD73c3mFHmzX6lLkjI/TfKfO4m9D0Q==|920

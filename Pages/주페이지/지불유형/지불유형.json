@@ -1,0 +1,510 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 93.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0
+    ],
+    "Count": 10
+  },
+  "Cols": {
+    "Count": 20
+  },
+  "Values": {
+    "2,1": "지불방식",
+    "4,1": "설명",
+    "7,8": "확인"
+  },
+  "AttachInfos": {
+    "2,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "지불방법유형테이블",
+        "ColumnName": "지불방법"
+      }
+    },
+    "4,8": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon"
+      },
+      "BindingInfo": {
+        "TableName": "지불방법유형테이블",
+        "ColumnName": "설명"
+      }
+    },
+    "7,8": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=지불유형!A1"
+                      }
+                    ]
+                  },
+                  "value": "新增",
+                  "Id": "8af8f116-5fb7-4cf6-ae95-d3d8b50954a9"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "지불방법유형테이블",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "bb6eddbc-0597-4490-ab75-567250a6ad20"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=지불유형!A1"
+                      }
+                    ]
+                  },
+                  "value": "编辑",
+                  "Id": "30bf09f0-059a-4ecb-8be6-063989d7ad87"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "지불방법유형테이블",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "d1a8f402-6ed4-4df0-9cb0-f5c80e96d747"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "확인",
+        "ClickMode": 1
+      },
+      "CssName": "button"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 3,
+        "FontStretch": 4,
+        "FontStyle": 4,
+        "FontWeight": 4,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "VerticalAlignment": 7,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null
+      },
+      {
+        "BorderBottom": null
+      },
+      {
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 8,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 8,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 8,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderLeft": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 8,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 8,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 8,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderTop": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "微软雅黑",
+        "[AUTO]General",
+        "#FFA9A9A9",
+        "宋体",
+        "Normal",
+        "General",
+        "Center",
+        "Top",
+        "#FF0000FF",
+        "#FF2BC4CA"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        },
+        {
+          "Color": 9
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 2,
+      "2,8": 3,
+      "2,9": 4,
+      "2,10": 4,
+      "2,11": 4,
+      "2,12": 4,
+      "2,13": 4,
+      "2,14": 4,
+      "2,15": 4,
+      "2,16": 4,
+      "2,17": 4,
+      "2,18": 5,
+      "3,1": 2,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 6,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 2,
+      "3,14": 2,
+      "3,15": 2,
+      "4,1": 0,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 1,
+      "4,6": 1,
+      "4,7": 2,
+      "4,8": 7,
+      "4,9": 8,
+      "4,10": 8,
+      "4,11": 8,
+      "4,12": 8,
+      "4,13": 8,
+      "4,14": 8,
+      "4,15": 8,
+      "4,16": 8,
+      "4,17": 8,
+      "4,18": 9,
+      "5,0": 10,
+      "5,1": 0,
+      "5,2": 1,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 11,
+      "5,9": 12,
+      "5,10": 12,
+      "5,11": 12,
+      "5,12": 12,
+      "5,13": 12,
+      "5,14": 12,
+      "5,15": 12,
+      "5,16": 12,
+      "5,17": 12,
+      "5,18": 13,
+      "5,19": 10,
+      "6,1": 2,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 14,
+      "6,9": 14,
+      "6,10": 14,
+      "6,11": 14,
+      "6,12": 14,
+      "6,13": 14,
+      "6,14": 14,
+      "6,15": 14,
+      "6,16": 15,
+      "6,17": 15,
+      "6,18": 15,
+      "7,7": 16,
+      "7,8": 17,
+      "7,9": 18,
+      "7,10": 18,
+      "7,11": 18,
+      "7,12": 18,
+      "7,13": 18,
+      "7,14": 18,
+      "7,15": 18,
+      "7,16": 18,
+      "7,17": 18,
+      "7,18": 19,
+      "7,19": 20,
+      "8,7": 16,
+      "8,8": 21,
+      "8,9": 22,
+      "8,10": 22,
+      "8,11": 22,
+      "8,12": 22,
+      "8,13": 22,
+      "8,14": 22,
+      "8,15": 22,
+      "8,16": 22,
+      "8,17": 22,
+      "8,18": 23,
+      "8,19": 20,
+      "9,8": 24,
+      "9,9": 24,
+      "9,10": 24,
+      "9,11": 24,
+      "9,12": 24,
+      "9,13": 24,
+      "9,14": 24,
+      "9,15": 24,
+      "9,16": 24,
+      "9,17": 24,
+      "9,18": 24
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "2,1,1,6",
+    "4,1,1,6",
+    "4,8,2,11",
+    "2,8,1,11",
+    "7,8,2,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "支付",
+    "AuthorizeInfo": {
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator",
+        "系统管理员"
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//FdvlmNomOLNH/1gnw26prW/TyZud2P1iAHFOqaYUfQg79PoV+vqD9bs3cXr1RuYl2tniMbnNVUcODTl+YqfEDOUpCRb48AZ5rZ/jlg2Z4OgtI67eEC3hU9Eq5OS26viJjcQ4df904xxuTQdFlwPbDTJASv1lSZQZgl6WfmnE8EcndfO+mpz47c2oO87JRmuNbZvRHDxgCAnAKkDqeFOteECFfh14tTRhYxrbQmMBsrvtTA5hgUa29JVX8/JuMMGUppuhZbXvaLt/qub6YWvtWIx8AFhJ26hE+IbVUddLa1iWM4CYSjxxWMqQqb+jbTmjfxtqdbUpcFuzZOnK3P0vucbLfZmO5grTUvcd6IxD/SOmHr7FF0s1/CJJdieOb6/hhCuynkIibYt4njRk4RbG6F+kgp8K9UBPF0GcTz/4fvjI3YTMnA+8ANxJ2iCJkigYFxMKyaOwkcZoSj42IS8G2xHLTHFyvGO7GOjRaGF0Pl7PiUxWCDwpoM4P3M5MDk7+9/Xry6d9kCZNq1L7jptenMq+MXSTusi+n1yZHrF4RVW52K62LS8CeCWqqUHuGzDEsbZarVW5wPW7x73u86sAjcM3+ddgFneC+bZksJgBVgZDm5Wha+duCRqYoPTmsmuOKeNWKrGlY+4NChS8LFLu3q7zhR3zeerHin8Rc8CbEujsbhBJ4/devFxZk/RK4TPMz/K3WAOftH6jvS2d/K8o+XPk5DsttxgZQZsYzLE92QvyV5TBh0LZvzXptUU33Vhk8GNpn/hk83Y5Kx9fXS9fxOpQ+a5HNxCnADIIvI2t4Nhq/sdQwUkX8Q60W04/4tMNb+oP4QXhdwShBCs6S9YYs5qeCdZ/XA0SBn58VP12Qd035X4sGrEOHtLSwE4H1ia+Dl/QfiBK1OxSRs6DX7M2Cg==|920

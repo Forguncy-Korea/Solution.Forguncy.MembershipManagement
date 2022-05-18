@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <AuditingList class="System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" assembly="mscorlib">
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원정보테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원금액거래테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원포인트거래테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원유형테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원카드상태테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>제품또는서비스테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>신분증유형테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>지불방법유형테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>소비유형테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원카드유효기간심사양식</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원증상태변경내역테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원금액거래일정테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>회원카드업그레이드기록</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+  </AuditingList>
+  <CellTypeSpinInfos>
+    <Item class="Forguncy.Model.CellTypeSpinInfo" assembly="ServerDesignerCommon">
+      <CellTypeFullName>Forguncy.DropDownListCellType</CellTypeFullName>
+      <SpinType>UpDownKeys</SpinType>
+    </Item>
+    <Item class="Forguncy.Model.CellTypeSpinInfo" assembly="ServerDesignerCommon">
+      <CellTypeFullName>Forguncy.NumberCellType</CellTypeFullName>
+      <SpinType>UpDownKeys</SpinType>
+    </Item>
+    <Item class="Forguncy.Model.CellTypeSpinInfo" assembly="ServerDesignerCommon">
+      <CellTypeFullName>Forguncy.DateCellType</CellTypeFullName>
+      <SpinType>UpDownKeys</SpinType>
+    </Item>
+    <Item class="Forguncy.Model.CellTypeSpinInfo" assembly="ServerDesignerCommon">
+      <CellTypeFullName>Forguncy.TimeCellType</CellTypeFullName>
+      <SpinType>UpDownKeys</SpinType>
+    </Item>
+    <Item class="Forguncy.Model.CellTypeSpinInfo" assembly="ServerDesignerCommon">
+      <CellTypeFullName>Forguncy.UserCellType</CellTypeFullName>
+      <SpinType>UpDownKeys</SpinType>
+    </Item>
+  </CellTypeSpinInfos>
+  <IntegrateWithOtherApplication>
+    <Password>YbZ2kEZeS5il</Password>
+  </IntegrateWithOtherApplication>
+  <IsPageInContainerBackgroundHardCodeWhite>True</IsPageInContainerBackgroundHardCodeWhite>
+  <NotAllowModifyDatabaseByJsApi>False</NotAllowModifyDatabaseByJsApi>
+  <StartDateFiscalYear>4</StartDateFiscalYear>
+  <StartPage>메인</StartPage>
+  <UserServicePort>28741</UserServicePort>
+  <WebSitePort>64349</WebSitePort>
+</ApplicationSettings>

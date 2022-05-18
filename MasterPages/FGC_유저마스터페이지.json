@@ -1,0 +1,130 @@
+{
+  "Rows": {
+    "Count": 38
+  },
+  "Cols": {
+    "Count": 55
+  },
+  "Values": {
+    "30,4": "이 페이지는 Forguncy의 빌트인 페이지입니다.애플리케이션에 맞추어 커스터마이즈가 가능합니다."
+  },
+  "AttachInfos": {
+    "4,4": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Foreground": 1,
+        "TextIndent": 5,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null
+      },
+      {
+        "Background": 3,
+        "FontFamily": 4,
+        "FontSize": 14.670000076293945
+      },
+      {
+        "FontSize": 12.0,
+        "Foreground": 5,
+        "Formatter": 6,
+        "HorizontalAlignment": 7,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null
+      },
+      {
+        "BorderTop": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF00A0E9",
+        "#FFFFFFFF",
+        "Left",
+        "#FFD3D3D3",
+        "MS PGothic",
+        "#FF7F7F7F",
+        "[AUTO]General",
+        "Center",
+        "#FFBABABA",
+        "Meiryo UI"
+      ],
+      "Borders": [
+        {
+          "Color": 8
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,4": 0,
+      "4,4": 1,
+      "30,4": 2,
+      "30,5": 3,
+      "30,6": 3,
+      "30,7": 3,
+      "30,8": 3,
+      "30,9": 3,
+      "30,10": 3,
+      "30,11": 3,
+      "30,12": 3,
+      "30,13": 3,
+      "30,14": 3,
+      "30,15": 3,
+      "30,16": 3,
+      "30,17": 3,
+      "30,18": 3,
+      "30,19": 3,
+      "30,20": 3,
+      "30,21": 3,
+      "30,22": 3,
+      "30,23": 3,
+      "30,24": 3,
+      "30,25": 3,
+      "30,26": 3,
+      "30,27": 3,
+      "30,28": 3,
+      "30,29": 3,
+      "30,30": 3,
+      "30,31": 3,
+      "30,32": 3,
+      "30,33": 3,
+      "30,34": 3,
+      "30,35": 3,
+      "30,36": 3,
+      "30,37": 3,
+      "30,38": 3,
+      "30,39": 3,
+      "30,40": 3,
+      "30,41": 3,
+      "30,42": 3,
+      "30,43": 3,
+      "30,44": 3,
+      "30,45": 3,
+      "30,46": 3,
+      "30,47": 3,
+      "30,48": 3,
+      "30,49": 3,
+      "30,50": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 9
+    }
+  },
+  "Spans": [
+    "0,4,3,47",
+    "4,4,26,47",
+    "30,4,2,47"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//Wdds9aKG9df9+CMmSohC4iiZIXGiCyLJeBd2CpZvuW7fFsaRgy5MXQELYRUDYq8xFMdk7yEN5v8Pu4RmlcDLh2XXCUD60jML4apxHsWgsfEkL0zGSVPQVrD5OhEFPp8Pwm9eBdXYReCgAWMQHgwVKbyziJ65QvGWl4HrK02t4snyHwVzrBwd/SaqAOK26aLUtGdMjdveCJXtwnwUs/x72t3OyufYbcZPgnPBGaQ/kEgw4gsPE55OFPPLjhx8VlzBN4H3D2iTNNp473/f8QKKhgLZ3OhzBVABoG5LVvEMYTepeX+Pv79VOb9Stj2FyhbIqKschZBk00sAsYpbQP8UWiKr3BdvnvzTdcFcJoFm/u2HGBmKruMTZWfabken9oraFkxhSrWaKKH4hdCyVNL9qCKSJV1lD7ebb47DxVGo1e/ixHqNHZgwS8Rl3EO4kCywhNlx7cw2+lY4CX5qEPAQcgOEyQ+zF10joKT+ffQWFuF0IfGjYDrEAiYoPuLRO1OqdUvrU2loQrcmlA8LVuD+h2gg+IIXjWgggxPuo5hZsBubKhgMlCoq4GFNnCnt2wJc46avd2a230U8Qbvu1+1xrYHE7q4nwSaZ6IFz4OGXyEOR/Vt0eEfhWzf5jwTxNMB2TJKlVh1Yu3MptLTRbwfm9bLhON/kdjHjWlbJ34D3sVfarbRVMeeO93sbPlqlxSB4W/0je3EQgxmVuBIC+wnR44sTLJpLyhsQKvORcJ8ChDq+lq30li3e7LUKeato6IoXORv5uDkYKuLi5vhgGojJ3lL/9TjJXJK9c5WPGhwpQuN/b5qM13JllJ2VCdcvpOkIwiQ0bhMifsvr/H9qP105DMzJLdbBRzL5LHnE/Ye1cdvG8jOV5H+dWQz6SqTl46GxAHp47qHFQXRYsWQl4IOO9g==|920
