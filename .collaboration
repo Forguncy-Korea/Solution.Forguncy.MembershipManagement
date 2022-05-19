@@ -224,7 +224,16 @@
   },
   {
     "ModuleName": "PCPage/회원정보_세부정보",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-19T15:17:32.6926716+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\회원정보\\회원정보_세부정보.json"
+    ]
   },
   {
     "ModuleName": "PCPage/분실신고성공",
