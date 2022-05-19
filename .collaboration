@@ -183,16 +183,7 @@
   },
   {
     "ModuleName": "PCPage/회원소비",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-19T10:57:33.1337323+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원소비\\회원소비.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/회원관리/회원업그레이드",
@@ -224,16 +215,7 @@
   },
   {
     "ModuleName": "PCPage/회원정보_세부정보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-19T11:04:10.245581+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원정보\\회원정보_세부정보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/분실신고성공",
@@ -345,16 +327,7 @@
   },
   {
     "ModuleName": "PCPage/메인",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-18T17:27:23.9054259+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\메인.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/메뉴마스터페이지",
