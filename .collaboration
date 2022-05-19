@@ -183,7 +183,16 @@
   },
   {
     "ModuleName": "PCPage/회원소비",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-19T11:27:32.5752809+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\회원소비\\회원소비.json"
+    ]
   },
   {
     "ModuleName": "Pages/회원관리/회원업그레이드",
