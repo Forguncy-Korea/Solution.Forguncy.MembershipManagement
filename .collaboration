@@ -297,7 +297,16 @@
   },
   {
     "ModuleName": "PCPage/포인트사용",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:21:29.6093489+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\포인트사용\\포인트사용.json"
+    ]
   },
   {
     "ModuleName": "Pages/회원관리/회원소비",
