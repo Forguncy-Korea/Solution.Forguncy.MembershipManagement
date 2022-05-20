@@ -1,72 +1,212 @@
 [
   {
     "ModuleName": "TableView/사용자 정보 보기",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\사용자 정보 보기.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원정보테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원정보테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원금액거래테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원금액거래테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원포인트거래테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원포인트거래테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원유형테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원유형테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원카드상태테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원카드상태테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/제품또는서비스테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\제품또는서비스테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/신분증유형테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\신분증유형테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/지불방법유형테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\지불방법유형테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/소비유형테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\소비유형테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원카드유효기간심사양식",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원카드유효기간심사양식.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원증상태변경내역테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원증상태변경내역테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원금액거래일정테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원금액거래일정테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/회원카드업그레이드기록",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1472737+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\회원카드업그레이드기록.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -605,6 +745,25 @@
   },
   {
     "ModuleName": "Upload",
-    "ModuleType": 26
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:53:08.1481845+09:00",
+    "ModuleType": 26,
+    "ToRemoveFiles": [
+      "Upload\\7a433a8b-fc8e-4d08-9929-4c1723d2fe97_690e8ef119c91a094258e84ff2045909.jpg",
+      "Upload\\7a433a8b-fc8e-4d08-9929-4c1723d2fe97_690e8ef119c91a094258e84ff2045909.small.jpg",
+      "Upload\\9fc691c9-94b3-4749-ae96-c8f7b390db90_1a502db9ba2150d5cf9f2045b1b4a55d.jpg",
+      "Upload\\9fc691c9-94b3-4749-ae96-c8f7b390db90_1a502db9ba2150d5cf9f2045b1b4a55d.small.jpg",
+      "Upload\\b572aa9d-52e2-4d20-8042-db7d5596608d_a34211e016373c3ec0781416deb3e19b.jpg",
+      "Upload\\b572aa9d-52e2-4d20-8042-db7d5596608d_a34211e016373c3ec0781416deb3e19b.small.jpg",
+      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.jpg",
+      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.medium.jpg",
+      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.small.jpg",
+      "Upload\\c9efe898-c1ec-44b7-9600-19f833aa02ec_690e8ef119c91a094258e84ff2045909.jpg",
+      "Upload\\c9efe898-c1ec-44b7-9600-19f833aa02ec_690e8ef119c91a094258e84ff2045909.small.jpg"
+    ]
   }
 ]
