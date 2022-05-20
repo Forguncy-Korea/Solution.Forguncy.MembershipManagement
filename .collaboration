@@ -245,7 +245,16 @@
   },
   {
     "ModuleName": "PCPage/회원재충전",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:19:33.5291638+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\충전\\회원재충전.json"
+    ]
   },
   {
     "ModuleName": "PCPage/회원충전목록",
