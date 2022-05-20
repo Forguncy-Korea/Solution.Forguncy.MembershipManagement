@@ -119,7 +119,16 @@
   },
   {
     "ModuleName": "PCPage/지불유형",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:15:42.9793049+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\주페이지\\지불유형\\지불유형.json"
+    ]
   },
   {
     "ModuleName": "Pages/주페이지/상품및서비스",
