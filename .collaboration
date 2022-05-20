@@ -543,7 +543,16 @@
   },
   {
     "ModuleName": "PCPage/메인",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:33:56.5408306+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\메인.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/메뉴마스터페이지",
