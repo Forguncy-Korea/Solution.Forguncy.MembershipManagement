@@ -353,7 +353,16 @@
   },
   {
     "ModuleName": "PCPage/회원업그레이드",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:25:51.940946+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\회원업그레이드\\회원업그레이드.json"
+    ]
   },
   {
     "ModuleName": "PCPage/회원업그레이드목록",
