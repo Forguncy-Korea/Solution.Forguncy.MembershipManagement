@@ -258,7 +258,16 @@
   },
   {
     "ModuleName": "PCPage/회원충전목록",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:20:18.3019528+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\충전\\회원충전목록.json"
+    ]
   },
   {
     "ModuleName": "Pages/회원관리/포인트사용",
