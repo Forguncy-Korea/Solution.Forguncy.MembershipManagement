@@ -67,12 +67,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "9cefee05-7eed-420a-87bd-1235092fdfe7"
+          "Id": "8f6bf05f-285a-4d22-a0bb-5ce5dac1715e"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "a6bf1545-7385-4610-806b-386a2185a015"
+          "Id": "f13951ef-56d1-4937-be1c-103e7b879479"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -84,7 +84,7 @@
               "Order": 1
             }
           ],
-          "Id": "425d3d83-8207-4a3b-b5a4-652f09df95d4"
+          "Id": "94eb0a4d-27f4-44ed-8e54-0c2190466c09"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -100,7 +100,7 @@
             "PageName": "카드상태변경",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "편집",
                 "TargetCell": {
                   "SerializeProperty": "=카드상태변경!A1"
                 }
@@ -2238,4 +2238,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//+MRJdSeBRXjDyFWhaFZsChmoyYecFEC70dLLEtLM3vxyHVjS73NfQGEAjuIBSDzGaUMI1P79T1jPGNOmVklOv8GeHQna/NN47zX/bAdZqfYfXSiExki7ltEGJIHP1wwKY0q6/fFApHy9PM265RmpDzD/RQFIxkjY77j6xUk7FLY+i7zu82SzfRVpQmMCP3V3rF3/fowisdaBGhZdyB5Ewyvf6wUpiwmRxMYhc0490b8oQX5kMZXIaEqg5YbNJnnsfv415f7NKcpqZufc/RtFw4Xf1U33dbclJaabQI2t5HChqJR6+X7W4LT53w+OlXPCGliaRtKNoN7EuV40jqLx6q002sQbJYujtOdeHmG/j5AEa7tCtyzPtDJ89M20O1MXthFTnnclDUsrEEZr67VdKIL4f3qQQlaggHXhJyYUHNLtnF9LT0R4B4JlrAlNmztXWVZMeYPPaY4ska5+DSp5kX73cb6zsiSOzqsgKeOKf708RE3TWvE1aNyEOj6xogXRpgxt/Hh2sY4fHZ7LqIfDoFDTaq1knGXx/OkTyUoCuzNl6qcqsdHjy1eAZRxPpVVmhDsbtSs58vmw1iat1fLG1nBJnsh+2++vvQYTYxE382/4VbcJ8QnkRzgzQymw6EJ4pMXxNBYAiHJfcKJI9gha2ZY5yuaZsIdpa9vxH6hWv0mVHGbcn1lsOSuMqZjXHGiX4rwDtmWhjwR9CGyOjWUh9ez4kfg2Ref/2zXZdS094GegfOnNRimzRrvQotfqID3AOvnq+rxwrex1KGtf577UBhZ6k/+naX6OZ2L0g3rqvynAL8X5gVbZXbDaIjgaxxxycVvqdCEEfOTmPEkh8Pk1bDBW4P79l+cmnvOAvsAlEidCohipTWF4XIiKgMI8AyHp/5J6rZOhqeKYfYOe7wTiSQ==|920
+}//yexxf0yAHmzf69m5oaU5vEKCgrpcgx4sk/1aEoCHFriuQnM1JF5BxkjtRStfZRWKLA3ntSuJCOmcazG30f3hmaNlOlLvQp40aCpiAsjy8pdvzSxoWugd4VMwn42pTWv5q9zfd8RxbcbQ5V7SY2SLdPsxoqpRuOsOmRtxGb64PyEjH+kV0cPM2qs95dZoYEvPuDq/9mddJLmJjNSGAgDBDlA0dc3TLvpOErjUWYbu29pEmGvkhtRzduUdMx21t9l100YZxpm403Oq8/s4HD7oD62YO+kXsc4w0Xg3QMGpl+c4JlE9XtEAlsB+X1PdsG7Tc55ftf1E6+9cQhLilmYBcuhJczmoAvHx1+jdgFTNz6kJI6JH/tEbbYop812KVwDx7laZKPkyYp3IZ3novo8bWsvJANXtoOxt5q3M7a/e/lGNcZMfw31uStDIP5yatSPWUyw4T6x+C75QXcfPRc2l8RFM3Jysz7QQqwaBqC6XdTwynjs/HPJ0ZcMrtyUzVLFZBDrgWBF9oK/7kZL61Z5l3NJMtD/FD3P7K+X4KhtY4yvCHGaXmpH68wTqbLDV67/mWKCROqUf/cnbR5+wDlLOM17vTJFWfILjZ76tbRMVY9deFhttPus88mzwsP3F8d6z3GIqcyoUMxJRd30k4mjLbr0Pb2XhzXc86gsyjdSxGReIxeesnXMwpKDBoJEGWBjN4H2170cKHawORTUy6Dyw4uANs52goFM9rQ18aoUcjSVUwXfZcMY/8pGK+ecgHXl8tWB55KzKytNuu55wcuSBWmHe3fi2x5+QAcLRgf4MtKnsn6FYvx0s3QmYYWIhBbgWZ5QyBeB/w2pRUABzvW2DNGmaX2ifQyIIm/VrAA9VwMyArX+hsrxNaUQy3dwolmQk1PXIq+Ba4Eq/UCC+S0waeQ==|920

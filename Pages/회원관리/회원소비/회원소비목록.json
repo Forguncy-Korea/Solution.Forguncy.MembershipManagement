@@ -70,7 +70,7 @@
               "ColumnName": "거래유형"
             },
             "Value": "2",
-            "Id": "78bc3eb1-dca8-46bd-ab9d-e6a59106e8ba"
+            "Id": "d9f058ae-5008-42e7-8aba-7524ea99de5a"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -85,14 +85,14 @@
               }
             },
             "Value": "%Null%",
-            "Id": "21e923d7-ec0c-45d9-8ca7-72e8708b0429"
+            "Id": "e313a0fe-89e8-420a-a56b-7108a3702723"
           },
-          "Id": "932fff8f-c089-4a57-8a1c-a44ff29b64cf"
+          "Id": "15a7f11c-5214-4a2f-8c1e-8b886e2a03eb"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f09a3e9d-2557-4975-ad85-17b29d18b838"
+          "Id": "d841be06-9947-4db8-9d00-f5ff4a9bd1f9"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -104,7 +104,7 @@
               "Order": 1
             }
           ],
-          "Id": "b8eed3a5-eda1-4fb7-a671-9313b0820e48"
+          "Id": "a59ee93d-c23e-435b-8e04-781e72b6a45d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -120,7 +120,7 @@
             "PageName": "회원소비",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "편집",
                 "TargetCell": {
                   "SerializeProperty": "=회원소비!A1"
                 }
@@ -3964,4 +3964,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//wl/ITXywm/JkQKRomcYUxz7ejJgTAdxw2I0/yHQU0vFRhr5zsNClSYT2AfIhMhkxAj8QYs8+fo4DRh7vwDvsBBF29TYYHNHB32FClAoRDAb+3EUmbtMVh7jksFq9PnELar850CCp38I3EvWBh3mS3g10msNKw3pHjay194QDbTgOZhAFcal5f9jpMLDl2RvsVCONUxqZfacB4e5Gi9ClP/2MOs+8gr74w7O1Vm3m2COGloTqbDDE6DOBMRMz1UIa66VAvgdCqUt8u3BYLN3g/HMfu8ewB8cb4KtNfgWjI03nDoty3v3iP+NYnB6jqVwW7FlpPgBNotS62NUM0sj5VgIo9E5HL3x7darEdGOACrDjbKBlGOcXAc9nByBPL3b3zytt8v+OpLOMYYABC0zEwRtIsownqe4gkEL0IgDEhNuW8VYPEbJ+D8s/YrdWXtx/I7FR+60N0pQFndcUInTjFG2JChT4N1NTKtV1L9RahSjx3eYMtZ0ZdDNQizJRNkyC33xw0ZYeFKy3XxJupft3eLY/6bu5foRB5VqJn9tP9X9CaFNY2lAGroggEDr61IkAl51qRPid0TeJGDAkLItSg17a2g0SMaaP2tRdLZR4dRDFZLSsVpK90DB3sIuY1pu+0PbOL26LHNtxYi4VIqZxRI/yatuKFKIosxfEfk3n+2iyLwbidVCQwHIHj9eRswMPajMwEhWQKLPRsweqAEH1/q/+bAmTbyX2fsawdfBXLSxmRyCRbhFtjS1CmpIoML3jAjfncJHL4VnVCpquMJWR0gqtbZrv9ictJpT6/G7a+N3AVDR2PbBGTxrR1lsPLkoHx3tSJeEuQA+/9nHdX7dZ0wcNVUX0FMF8AIqME+GR/pLwWHGIRPMmpWG2TM9C6ZJmf3oTTdyOtyjPIGIKSTj2TQ==|920
+}//VHlE9KHe8vrljqHgA4rtN0Z7rE+Qihb1EpBUcsZ1R0RNXvpzfkXmjZCA/QXFXirQnqXTXDi+FBDiM6ot9QUON/CFNTrEVktb1SDQ+vG7uVRJI6fa5CuafGMsG9HnQZ8AX7jOo4Vpb4bUAaUCTihi5TnYwuVg6xNxBQcoi+LnlM8/+C85OcI8RcmU6yz93dmiYuh5YLjp5eU+Tq1V8EOpyD5N4eXtX4GUSk9iw/3IheaLyWqNtcGsOQwE1kP7p+/Tq/olm7P+0BuzgIorBAgoRrUhhb2VjYqd/jxhIuIrERssyQSDLGWUOWSz8iybsnpIqI9C9ChkLqiP3iQu3yK9n+Hdly8FUyRDav2QYUzUbvdkDwx8WCp3F1p3XoQwyPd0F6dRTYX1++dbuo72zFhuPpwujkFg9hw59yC7eiWYeHVFaDaX4Gkl3JVjqYcjDa1pM82WhGC6jOrah1s93hdaft5eBrW8CRjKL5S6XejwLQakdRIMMfsYe4i1cUKzHaj06X3jD0kTgYjkx2isszQTGikpfismKJiG10+kii6w4yOpKUkbq0E2xjIYSLefaT3ldpKooTtgQ7lTvP1sfL76s6ihC2s6/F4n65x+15WC5EfkwcSYKTyGnda8fIrRakGfvBhZjMoV0Ea6+3q6DmU9HH0zvBo+Z+h9JxWzhcZ7aF9eb7yphdK4nFj3vBiQ5YqZyHStkCTD00LahGxf8Qr0REkx7IRMAmKCFLRsueUEQuCtT+z05JIglmRmowdTNFIpWDEof6J2L+lD+Osa7cHkSnDD02L3rbdGKSEnDurAnPD+BIbFWxuQnFb9ZHX68loAehpEutna91hLVV2WmuomUYigByGDRf7fB7t4zbxU09+ku0HMDmV//yMMgz8A8mYAX1lHW+NVc9ckiIIaq0E8Yw==|920

@@ -166,12 +166,12 @@
         "ItemSpace": 40,
         "Items": [
           {
-            "Value": "男",
-            "DisplayValue": "男"
+            "Value": "남",
+            "DisplayValue": "남"
           },
           {
-            "Value": "女",
-            "DisplayValue": "女"
+            "Value": "여",
+            "DisplayValue": "여"
           }
         ]
       },
@@ -290,8 +290,8 @@
                       }
                     ]
                   },
-                  "value": "新增",
-                  "Id": "becd81ab-690c-4888-9dd6-a03d98ff7ba3"
+                  "value": "신규",
+                  "Id": "d85c4a1b-ac34-460d-9efa-4c53dcb1c89a"
                 },
                 "CommandList": [
                   {
@@ -339,7 +339,7 @@
                     "PassValues": []
                   }
                 ],
-                "ID": "9be10d34-1b08-404d-9f90-9212568ae678"
+                "ID": "03fdce47-b0c0-4e9b-bc3a-35d4dbd3f022"
               },
               {
                 "Condition": {
@@ -352,8 +352,8 @@
                       }
                     ]
                   },
-                  "value": "编辑",
-                  "Id": "c4bdb58b-8b1a-4ef2-91bb-9875997a16d0"
+                  "value": "편집",
+                  "Id": "0936c743-e27e-4660-a775-e63cba6dded0"
                 },
                 "CommandList": [
                   {
@@ -368,11 +368,11 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "f038f321-db1a-4dbd-bf3b-ea917b1a5258"
+                "ID": "08110f73-218f-4979-a2ca-a135fabeaa84"
               },
               {
                 "CommandList": [],
-                "ID": "148be6f5-7427-4415-9736-4164623b708b"
+                "ID": "62755f0b-a45f-4599-bd43-41c79c2f4a4b"
               }
             ]
           }
@@ -1660,4 +1660,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//727BEQShXJY7SBsNHDSJcvxI7CaqOKVI7anm1630xaHQ4Go9rLqqVRW5VfE0iBBUcbMz9VZTjL1S4dz96wfpjQHkldQuPvXf8bOstVgPdj3NcFPuO/mYKJfKgdNlHysZfxpTpodI6VilvQmdwI+u/k/bTXXn2+/8MYeJbUBHK8PPtQCAH/FgOizUrLyYpyNIxXyS8BfizFUuTjhw1OhC1vajj00eYdthvvSNWQeUVvCYmn8hYCdJ5UT8VQmTVs//SLB372I9eT6p8a5OJPsbmuaUpBSL75NZv1EGEAAYQDVxXs9UNI8SrEYx1pkNefwLtNXQQHvmvnWIdzSJBfePgjk/FBRNsEJT7AjmwWDrYRPh0EVLFR3ASjirnH6zbuumjMOgLDzURenU9gz4ADArXN3oJZMqvd3Co7BqcPqcjsLtTI4kJKbl8aMwMdV+XrfgTCbHalEILesw6bY/+hhME325j1yHbLXgJmSruV9cfgpxRL5V0CNimRLmHBhi1IoWLX2dvSzWhuBKSMal8/wgosPy8xN69UxByTWchQkTXR+j4JFEveArhpw32PXJ9bH1Jbl6mlpgMl4TxgecGtsJWkXlJnshH6KTp81wppCPnRjCr3wg7fxiZzCMBZDoe97JvxURuLc8k+9W9U/koZwq0aZH91d9Hgd1qNFPWVVP9aliA/fYFo51kM7YHrYiuQ4S1aJ5RLxQ5GW1o7CU6NPPx3NJy+CUdLXAp8XOrrDcFN9IOdN0v9Sx5gk13UtYxM1mtbMkwL8+xJznNuSKSpHugWO5cJ8S2bSd/nvquPoBXpX3TzyIqxOry7ef80poFuqz6qeNwXBH+4CbMF4ownCUBX7541nOuVWCoaiucg0ZAC4IyQYGAFfZ1vRDvCSvbgRK1l4pLZt9LGpQZpOTUUsi8w==|920
+}//NvBUatyFavx/X+2Ver2mXVWddFfoGtSrS5bGsMj2whLvCApQZcuoSoHnOLjnP2u6rV+LOlKS/jqPbJyEYwRClEqBoBZWV7Xo5aBkxPVitF59JjpYUmw+mepjqJxVtZ5FlS+gLleYahrKEpxl8Ozr/6a3U6yFtEM7CsbJBF+IszRaZ/zZtFQ5JhKyYY3E+2TJBEGeJXsJ/dn6mOcT/wi9+seoagOzbVIezUZN/AqQ1vhPdwaLTFnK6SO9tRqq+UwJAHXE82guER4G2ZAeUxWK9fAYLBxxvMP9xEgYeGztlOA+1rRW+8X23enbMU++4aJJoKvVoudzB3n+/YMPql48puTJAs02wjxAc9ewuzyjej4kCvUl8QrWAhsM6D7K6Qc+ZGyvBBW2BCcpx7tjhaiYO6wFPAxs5A0waXIUar7d6Nzek0nX5X8ZKLkoy6FWPdlFbbYsfKKqOVaQynZTYDf9lAixmLIOPpYfcTyIhupEc3t19VgYM9FCKr3HhZcy4MkwNAW/Z3gD8Wb5NYFTBl/S9FBs51yHB5dJzHXkYEn6WXJbHNdrQFsu/AyyNZgWoFgQ7RkuTESONKlzaYYv/1CaXS1vSaTTJf3G9Z0ADL8YP347T+q/ZHjyQUQ48GNTyVGveaMnoFb7zwFaHVybqM+7I2OdHX23pS8tfGZbIuxJ5NpOM6BDaK5B+62FR5BOXDHSESBrlJ0CVsrN6tTf9pW4po8gN2cXlOUc35m/muQ4Fm/QnZAz1uyZEO3wUqXqCLD+NqP57XAs1uDFYHyHwdrI3+A2gl2TlgTE7roRibVl0BO5QjxuWXSqeHJu7Cy12YBLu0kU3fr+MWOyGHJ5HQw3k/23a7A/xAxdJwe0sdmdodIks99ieV1Xi2RxEmu9TIuRJX9tIZ8jcupQFBmj9kMxlw==|920

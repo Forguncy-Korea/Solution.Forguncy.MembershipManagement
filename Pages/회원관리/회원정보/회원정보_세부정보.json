@@ -327,7 +327,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "173a2259-154c-4ea8-8bc1-7bd2750f9412"
+                  "Id": "825d5a26-9381-41c3-8ccd-7883cec225a3"
                 },
                 "CommandList": [
                   {
@@ -335,7 +335,7 @@
                     "MessageFormula": "该会员卡已作废，不能充值"
                   }
                 ],
-                "ID": "5599588a-4712-4cd0-abe9-fe798d9e2f80"
+                "ID": "a88b6dfc-f0d0-429e-b54a-5ab9c7755c80"
               },
               {
                 "CommandList": [
@@ -344,7 +344,7 @@
                     "PageName": "회원재충전",
                     "PassValues": [
                       {
-                        "Source": "新增",
+                        "Source": "신규",
                         "TargetCell": {
                           "SerializeProperty": "=회원재충전!A1"
                         }
@@ -362,7 +362,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "03486de4-79d4-4353-bd13-38169df3f3c0"
+                "ID": "66494562-2c76-43ee-8a0f-a31dcafcc908"
               }
             ]
           }
@@ -422,7 +422,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "613a3895-fa26-474a-99f2-7d6978cc0416"
+                  "Id": "8d16f3a5-e6ff-47dd-807d-04d9bf84e9bd"
                 },
                 "CommandList": [
                   {
@@ -430,7 +430,7 @@
                     "MessageFormula": "该会员卡已作废，不能消费"
                   }
                 ],
-                "ID": "57418a27-e8ec-4f38-b7b5-e5ea223e73a4"
+                "ID": "7e638795-f90f-455c-8756-956b7c7576c1"
               },
               {
                 "CommandList": [
@@ -439,7 +439,7 @@
                     "PageName": "회원소비",
                     "PassValues": [
                       {
-                        "Source": "新增",
+                        "Source": "신규",
                         "TargetCell": {
                           "SerializeProperty": "=회원소비!A1"
                         }
@@ -457,7 +457,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "718d82d7-5e1a-4310-af7a-1e4b60c238a7"
+                "ID": "8df50ea3-d1e5-46a3-b67b-cfba8bea310e"
               }
             ]
           }
@@ -500,7 +500,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "9be01264-ccbf-4417-8722-b3f99be27f82"
+                  "Id": "488cb764-0b66-42a3-afca-b02929ababef"
                 },
                 "CommandList": [
                   {
@@ -508,7 +508,7 @@
                     "MessageFormula": "该会员卡已作废，不能兑换积分"
                   }
                 ],
-                "ID": "2564af86-12c2-4ffb-83cc-7d73cfb400a7"
+                "ID": "c6cc49c2-6761-4a22-9570-988891816340"
               },
               {
                 "Condition": {
@@ -522,7 +522,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "e4cb04c6-02b9-47f8-9ab0-9bb05e9b86c0"
+                  "Id": "bca6a147-4e51-4b12-bce3-ca33bbf55350"
                 },
                 "CommandList": [
                   {
@@ -530,7 +530,7 @@
                     "MessageFormula": "该会员卡已失效，不能兑换积分"
                   }
                 ],
-                "ID": "759d5b11-2901-4445-a0fd-4ea97adabe55"
+                "ID": "c87eb0fc-fe7f-4b38-8d09-c78bb8cdebe1"
               },
               {
                 "CommandList": [
@@ -539,7 +539,7 @@
                     "PageName": "포인트사용",
                     "PassValues": [
                       {
-                        "Source": "新增",
+                        "Source": "신규",
                         "TargetCell": {
                           "SerializeProperty": "=포인트사용!A1"
                         }
@@ -557,7 +557,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "85f24d3c-d058-4219-9e15-499519e3e3fd"
+                "ID": "e5e53685-9b93-4639-a5cb-4a3152697261"
               }
             ]
           }
@@ -600,7 +600,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "4437b7b0-20d0-4a1b-8a08-2563f9dc8da8"
+                  "Id": "c5157b08-2bb6-4bd5-8638-7e2a0b7fbed4"
                 },
                 "CommandList": [
                   {
@@ -608,7 +608,7 @@
                     "MessageFormula": "该会员卡已失效，不能挂失"
                   }
                 ],
-                "ID": "051f98f1-7890-44df-8799-2decac203c63"
+                "ID": "a807301a-0bf6-4b31-a35b-b6470688e1d0"
               },
               {
                 "Condition": {
@@ -622,7 +622,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "8c469550-0dfb-4848-ab30-1fa925b6f81d"
+                  "Id": "93796919-6507-48b0-8318-653ae000ae6e"
                 },
                 "CommandList": [
                   {
@@ -630,7 +630,7 @@
                     "MessageFormula": "该会员卡已作废，不能挂失"
                   }
                 ],
-                "ID": "0bde0bd4-c498-4834-abd7-39aac8baa695"
+                "ID": "3e7b71d1-5031-4a2f-b00b-055a2a627da8"
               },
               {
                 "CommandList": [
@@ -785,7 +785,7 @@
                     ]
                   }
                 ],
-                "ID": "fdada89f-0496-4a58-869a-8e9509965a61"
+                "ID": "e6741d8b-6585-4d89-9a84-13f9826247c2"
               }
             ]
           }
@@ -828,7 +828,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "c2f3c37c-5e9a-4472-955f-85e6a6131e60"
+                  "Id": "932c30e7-a8fd-4aaa-9368-d19c37ee53eb"
                 },
                 "CommandList": [
                   {
@@ -836,7 +836,7 @@
                     "MessageFormula": "该会员卡已作废，不能升级"
                   }
                 ],
-                "ID": "6929f86a-f148-4abe-a8c8-a12813d4e597"
+                "ID": "46a1e740-b777-4a21-b20c-be7fec729450"
               },
               {
                 "Condition": {
@@ -850,7 +850,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "f36edbb5-9555-4578-8c98-7708ef4dca99"
+                  "Id": "e25b1f28-c687-4eb0-bb66-7fe5952fd220"
                 },
                 "CommandList": [
                   {
@@ -858,7 +858,7 @@
                     "MessageFormula": "该会员卡已失效，不能升级"
                   }
                 ],
-                "ID": "4d44f4c0-6957-461a-9c3e-9213ec0fffc3"
+                "ID": "6fb3a1bc-924e-4e7e-ba24-cb54f65282a7"
               },
               {
                 "CommandList": [
@@ -867,7 +867,7 @@
                     "PageName": "회원업그레이드",
                     "PassValues": [
                       {
-                        "Source": "新增",
+                        "Source": "신규",
                         "TargetCell": {
                           "SerializeProperty": "=회원업그레이드!A1"
                         }
@@ -885,7 +885,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "a58921ae-19e5-4ef5-9943-f629f8926929"
+                "ID": "2789ba2f-c1dd-4e26-bb00-71a26e815e50"
               }
             ]
           }
@@ -935,7 +935,7 @@
             "PageName": "회원정보",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "편집",
                 "TargetCell": {
                   "SerializeProperty": "=회원정보!A1"
                 }
@@ -991,7 +991,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f494ebc9-3b2c-411b-bf6e-7b609b0e0a83"
+          "Id": "0101442d-246e-48aa-b2cf-dcd9432b1c6b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1049,7 +1049,7 @@
             "PageName": "회원증정보",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "편집",
                 "TargetCell": {
                   "SerializeProperty": "=회원증정보!A1"
                 }
@@ -1134,12 +1134,12 @@
             "ColumnName": "거래유형"
           },
           "Value": "1",
-          "Id": "ee1cff19-590e-4b60-82b6-5314f5c41760"
+          "Id": "909dfd0d-4249-4b24-a288-14f5cb889534"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f7922e2e-0fdb-4a16-9e43-6edee9c4e22e"
+          "Id": "a1fe8f99-e44e-4406-8478-efe53c65449f"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1158,7 +1158,7 @@
               "Order": 1
             }
           ],
-          "Id": "76852067-8a88-4cf4-abb0-d399c3d619eb"
+          "Id": "60bf0952-ef3f-4b4d-b907-1f7b65a71537"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1217,7 +1217,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "f82dd210-122e-4b62-bc9e-39cdd109779a"
+                  "Id": "ef03f1d6-5adf-4894-bdaf-cd40a53feeb6"
                 },
                 "CommandList": [
                   {
@@ -1225,7 +1225,7 @@
                     "MessageFormula": "会员卡状态是作废，不能编辑充值记录"
                   }
                 ],
-                "ID": "0d7abbe0-b6e8-4724-aa06-b2a41c212d33"
+                "ID": "49d2e39d-78a0-42d3-b639-ea53a849f012"
               },
               {
                 "Condition": {
@@ -1239,7 +1239,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "c20f1470-4f58-4c7a-a0f6-62d3c9dd28f3"
+                  "Id": "54cac270-420f-4f6c-ac14-8b11fa032f2e"
                 },
                 "CommandList": [
                   {
@@ -1247,7 +1247,7 @@
                     "MessageFormula": "会员卡状态是失效，不能编辑充值记录"
                   }
                 ],
-                "ID": "24a08e26-273f-4b36-b5aa-d464a23dd0c5"
+                "ID": "242613df-07bc-4e17-8969-70b20b1c9c6d"
               },
               {
                 "CommandList": [
@@ -1256,7 +1256,7 @@
                     "PageName": "회원재충전",
                     "PassValues": [
                       {
-                        "Source": "编辑",
+                        "Source": "편집",
                         "TargetCell": {
                           "SerializeProperty": "=회원재충전!A1"
                         }
@@ -1274,7 +1274,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "2ee06394-8082-4979-9833-9721a42252aa"
+                "ID": "80b74b15-c785-43c5-934b-f87f7a39f042"
               }
             ]
           }
@@ -1290,8 +1290,7 @@
           {
             "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
             "ShowConfirm": true,
-            "CheckDataValidation": false,
-            "ConfirmText": "您确定要删除吗？",
+            "ConfirmText": "삭제하시겠습니까?",
             "UpdateValues": []
           }
         ],
@@ -1346,12 +1345,12 @@
             "ColumnName": "거래유형"
           },
           "Value": "2",
-          "Id": "9cee2088-7255-4b1e-a461-22d18c09ab73"
+          "Id": "ebdc42e5-0a74-4d44-9da1-6fb81243d6ac"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "a23aef81-6732-4696-9016-4addefd9e893"
+          "Id": "ee055637-e6e1-477e-9713-d60918e5d057"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1370,7 +1369,7 @@
               "Order": 1
             }
           ],
-          "Id": "9afa49ae-d7dd-4601-b9fc-590f5dc6ff73"
+          "Id": "bfe94230-95d8-40de-828d-b868c8243323"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1429,10 +1428,10 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "6e6337fc-d234-4531-81c4-275d916013ca"
+                  "Id": "235eeab3-c4a7-43d8-8649-b0379ba147bd"
                 },
                 "CommandList": [],
-                "ID": "24fbb2ae-d575-466b-b02a-3dc4926992b7"
+                "ID": "e38af3a5-f074-4ec7-9398-5546ebc9e87c"
               },
               {
                 "Condition": {
@@ -1446,10 +1445,10 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "06d4a378-cda6-4404-a25e-0f9ed0992fd2"
+                  "Id": "3c46083c-a8e6-48c0-a017-3c15cfd03499"
                 },
                 "CommandList": [],
-                "ID": "bbfa169d-32da-4903-844e-c0add6eddd58"
+                "ID": "510faa2a-a157-4222-acf4-cc7ab72e3db2"
               },
               {
                 "CommandList": [
@@ -1458,7 +1457,7 @@
                     "PageName": "회원소비",
                     "PassValues": [
                       {
-                        "Source": "编辑",
+                        "Source": "편집",
                         "TargetCell": {
                           "SerializeProperty": "=회원소비!A1"
                         }
@@ -1476,7 +1475,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "fb99b64f-9f98-460e-87e2-bb2618d98f0e"
+                "ID": "dd6df8e1-e7b6-4fed-abde-dc58e6264ecd"
               }
             ]
           }
@@ -1492,8 +1491,7 @@
           {
             "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
             "ShowConfirm": true,
-            "CheckDataValidation": false,
-            "ConfirmText": "您确定要删除吗？",
+            "ConfirmText": "삭제하시겠습니까？",
             "UpdateValues": []
           }
         ],
@@ -6599,4 +6597,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//ip/5Eq4lbJXOROHi6587Dc5Qzz6FL1XXka5hl9zyh52jbLvpyhYGwEQ6abONMiHZKZMWZhhoj0kWHT25MEMcUCG0+B/hWLkJX0q4BRwCQ6Z76focf1ZfUf3J/QpNXKG1mWVvCJgAwDNRfiEh7lRZ45waLGxCfFbf/0pfUmVxb9VsonlLM2EoHeAdtSE2X4uSL83+GKnXFJgbqYNl6xatSYD+jKWIU6bn64qxA/a5prPykVZJTSNtz0EJjKGLJVxRrSlr73qjCN8W+mhl+rbhJMl1X8VxgWyEND0XaKgUw3B9vBWCLFhj7fcqCAqxngIvuaDrFY+7cvzcvk5lD7r8t+9FziHUxUwQnJu2Ba+RXiDdo7rwwl/GDx9WTA49YBE7/EVyZo6zVRVf6ODT4Qos8/74a4Mbb8uCrE/34oiSrIOWrMLMI+O7/fr6dh0Yqp1EFT6B+4f7I8kghTKgMFEVZg16NwKRFsNkRPafbMaspoOtojq3Imwg1iaHbQ30tUw5PUXkSoe3YXdqfx8KOCQOdo5yWPvlJq0xlqdBxwGmn28dxNiC/FiZ9pu5oW+JtF1pc3Qz/JxboLkDd/I5Fc0/kRTvz4B3q9piT2xiQxXbGC7YCEHUanw1JsOwSYnCwzf5yzctbCFgIRin86D5ILRz9WgePvwn3InnsYTDsLp9Ordped4c4QOkPKfyKnQISgdBlUyRNjJcN5ft4zOqwM7luhkvYiMzaYYpq9LLhdZM6AHNpmc0WuPaGjmj56JQiPNAHnGyoTLuVJBDNosQtB6nvdahSpM70rLzsi/TMUcAnjrW6VvBn3xdrlI6VsHn3iVx7E/vFvL623X0yBVpNlOMp8QN/r5o8977ZifDw5rkGkSp0MUbmqSsS4cwrQMEx7hxy0b9N53cQTVctWPUJxq9VQ==|920
+}//AgHje2D456vwWy6UUj+UeERqCuXyC0DIr/bsDIkX4iUlUO2RXb/GMHsSZXTwB1iC6MKes5XXDSzUUeMmdH9GRpQI8FuhbsZ6BADHV30f2wFj22ZP16I08Y02zZBvAqq3e8GrB2Np/E926xQbm7vPNCWviQPSwSxeWs6K6kRRjKJAjpGFCMR4GD6HQfcdLFdSpFsRZ+Xzj1hWIWuPiriFKhisAv1qg/ByZG9pnnc9/VWSg9tGCNpYWmvGwBWFtDriwYbZ7tkxTHhQkWyJvHTxXj/z6v9V/3kHS1kKW36UNi746Bqi72J7ieqM1FpusezYTGSJylVlZG/ZfV4VKckk+pBzU2TicmJvMgQtyXZto8wbtYDOa//gDTjGuNqyY/DUjPToi4PqaVd4J0vSA+VYbexZTMoC0ULCm4gA+2pylJIMAhnQV8ODI9T/Hi4pXPFUn3JY/AsBepbnThwggQGnqLwWtuK7MP5GY324ipD5n20PTxGrFHU87GbwUTe9u/jqZmdPnvmaQiRumnwPwexvJCq5FfqEmx4Dy3PyNqtcwoi004ApL9irBhHh4+L0Ayr3UEgWejDPCewrJI8bCmTQ2c4MPQD7ju5pZBzuAlpmAOJPR4VUtb9yS+ofsygPt5OOAivYpzK/KwTmreH/ZgffIPpcz8mjvxKCNkfOkwxOaYTGE85A7bfdPO+KOswOflpn4c+9CyWbUiHvVDOQcMrTlVNc5cfw2+RKHLpujsH2rLUKJqrsxZSEwhkb1gwRCQW/K2WkGYUjpTdwIA6Yyaj0DpmvfGF8Uae9nx3/wijKvzZGwsMSzKcrgpSNg8w2MPKjCYsID2fGVF0kaOnZoZ7TBf6RYpX+DqG/JyXzV9xSeJ3SPpvjrO0EMIIVvMiPZ5yFFyX+wHHvmF7tWoyWTpea7Q==|920

@@ -313,12 +313,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=YEAR(TODAY())"
           },
-          "Id": "d603bf65-0aed-4e88-a4b1-997a39a51860"
+          "Id": "3710805a-e085-4d08-aade-b158ab9caf6a"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "68d0e72c-641f-41f5-ad3f-581493929f4b"
+          "Id": "d64cc32b-0080-40b9-928f-43b61bedbd63"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -364,7 +364,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=YEAR(TODAY())"
             },
-            "Id": "283dcb44-2c5d-4024-9fc1-c9dc092fbd1c"
+            "Id": "427fea99-9ec7-46ea-bb05-6708ca69eb3d"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -373,14 +373,14 @@
               "ColumnName": "거래유형"
             },
             "Value": "2",
-            "Id": "14de8b81-5040-4f52-acfe-5d4062b1c3cb"
+            "Id": "8d88adcb-9b56-46d2-824e-fcbb63233143"
           },
-          "Id": "25cdea94-d38c-4d72-ad0d-4a97975dbdfb"
+          "Id": "bd25d0ee-15b5-4f45-a04f-a7726b01f937"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "2e670b1e-05c2-4768-a984-7a580a039a7c"
+          "Id": "314a4da7-ebf1-4c70-9e69-ab2de5391d1a"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -414,7 +414,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=YEAR(TODAY())"
             },
-            "Id": "08e55969-a4c5-408a-b4e5-80e2e6aeed10"
+            "Id": "d2d718da-84b5-4bf9-8e50-ec9e4cc77940"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -423,14 +423,14 @@
               "ColumnName": "거래유형"
             },
             "Value": "1",
-            "Id": "05811fd2-ce4c-4302-859d-626f40a1e29e"
+            "Id": "3ff94665-8468-4662-849b-93b6a950554e"
           },
-          "Id": "ec82547f-ad92-4e83-a34c-dad9d3c2dce0"
+          "Id": "7cf6b89a-7f83-4609-8040-1564a366033f"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "3c9f70e6-55cc-400b-b9d7-e08765a6304c"
+          "Id": "83f5f598-b416-4158-a6d8-a95e34a360f8"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -483,7 +483,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "9cf1acd4-7a05-40ef-85da-801ef267f5b2"
+          "Id": "27aab134-e7e0-4e10-864e-8eb1477af792"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -2519,7 +2519,7 @@
         }
       },
       "Name": "Chart1",
-      "Location": "38,618",
+      "Location": "37,617",
       "Size": "667,301"
     },
     {
@@ -2836,4 +2836,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//r3z3SSFY/n/zoMOYaQNiv+0CngDlHIHjqzse0JB8JPduTVLEZlGitox/notA2C9gXAN8Z0rZcaORd3sG6scPKvaOQy/G7HWurvgmZEj/qp79eHjXvVdtD0QfNjIPv3zVVRHhIHOL6FNmo1FcrKZcMps9KqsHgP4PWQLgNeJdAznC3+b+DCjWcxKWVNACEdWk+Xbj9yHR/V+IHjs/A3DHDLfRtWonGWwowz87bp1x+hRBML+RwRC54akPpTKXt6VUdKlHtyMtorhL5dfjPfmgzoV9vycaxfyHwuidGa08N3kUFV3AD07z2yI+hZVZnPmIl+NwF52xYSFC+oJcO/UfHOmmw6+qf7ROxxGC7s2wZ9MXoSnaGuFKSXYqoOd0hkkUIHfNryO5gQG/LSuTkduX4iKuFl+49uvq8YF7Cp8vxdWEpD60xms4huyANcVaxWaNJentlebCin7cFWmi8SOE32BYtVpCWf0nGVZ7xv5flSyTpo9T/UZgwB3pZFuWUvwlsVu6Btx73XDPajtY1u3ZF7vr/dNwrMMUpRn4AktkiA5vEOCLiEWmEaN5u9ZAPbD/6LfFMkwxFr0H80WikNruIqx+fFFjW7HR5J91za734Hmz9CuDcDIz+bct2ua5ILTCqw79I1K+MxX7LTZNiKmd6WD+Gs9/DRWqRpTQSgnCgnf6WL/zkt7QrrexGXx58KzjDjRjvCxCsLFpKrSOEQGqxHfeb0cIo2botDzZ5IHAxZQ/4dh5RTYFKzncqiB/gZfciaLZc8gC2TVyIFa8a159uAo5+JctnMgIQCDOnjdbPho858+bWD4rvysGQRpElQTfMajQ8lWDYZQshfthv4bpuBMtgIkrchr7Pnbz83JgSEn0v8CitVSzZeuchiboI41VRcTWkOOGJTMhoWyDqYZhow==|920
+}//ea6H2h1+49CDc5yCvZGvSQmzLOoWwUKI66gs59Wf4P4HjeFAM//Pf8NJZ6f/zP4JvPU7wzWCrbC6iVxLm9xi/7aQ/JUnNeXXxvBrcEJ3UBzlI1e8OWX0BamXbAjf1HwKCCVvjVDUwprR+Stx2W3Phum+cg7l7ivRqbjbhnJ6aNPQxRTFLOCsxBiL5CUG7RL+mH9dLYYOTc/v0UrveR87FiJOT73zNgu5ackF/nEMWkD6tHzUy0e2AC8MqjMcu+1bjDK2d4Yb0/KVce2FfUzCmsAVqTPLGQrLixKPNgxI9VG1dN1UVf46aABZMsZKIKNazbGY8YoBGmrVfNyT0iqQS+HKkqcRB01nVI+50ucKPkg8bQZ0vtZFQgJ5Y2rTWEeY496/6Bi33nnmLLip6bvOWrjQOCO7xdsPO1Z+V14G2HCJbzYIZ5M7bCLxQ/PtHqvAUTyJWLSZsJcQxaII6KDKZ+f6K3hX4WLPmD4Pi2Pd0n6CWRGSLdNfVUJp6ygWFFdq/01ZR5t2Na3JMhxGuC8oYaORRc3by4iB07COkWvJ1lIeohp+55LAWDyumKCIqo477V11ijIfjCqU8j2apK0XCLd3DRE6O8wL1c+NQw0KDFVWv5bRNsLR+v0cPC/ARypKvo6cW6lA5+518Lh9ak6EVtQe2loiGUFhTitdvwAhMcOMU6kf6fFfBXwbCag+kflo0oXNv5t+nPCfxJB9hIxhCTNUIImdeSBXpLSmk3jlqB2+4UpqbDjYdAIBrugsGkXZmhbiid0Kb2UN/Y4aIAd4l/yvAdFucs5YKk93crhYBx3xxSQRTgtTZeB4uemH2I9kClveyUb7BmCb83zGDETqJz1I1jNvRWS7pDrZTL/POPCrRwKHJ5fXdTmy1h76WoAKIEHZF1I5BDZKNCdrP6b3zw==|920

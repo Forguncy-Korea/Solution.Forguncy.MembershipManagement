@@ -17,11 +17,11 @@
     "Count": 27
   },
   "Values": {
-    "1,2": "商品名称",
-    "4,2": "商品单价",
-    "7,2": "商品描述",
-    "15,2": "商品图片",
-    "25,7": "确定"
+    "1,2": "제품명",
+    "4,2": "제품단가",
+    "7,2": "제품설명",
+    "15,2": "제품사진",
+    "25,7": "확인"
   },
   "AttachInfos": {
     "1,7": {
@@ -93,8 +93,8 @@
                       }
                     ]
                   },
-                  "value": "新增",
-                  "Id": "926f800b-8ee5-48ab-a9f5-031526241842"
+                  "value": "신규",
+                  "Id": "908e3571-cb25-47fc-b13a-49a6a36b52dd"
                 },
                 "CommandList": [
                   {
@@ -106,7 +106,7 @@
                     "UpdateValues": []
                   }
                 ],
-                "ID": "d4b83ffe-3ce8-47fd-910d-bb8f59a57b72"
+                "ID": "68903215-67c1-43ed-b8ee-3349d11a3d36"
               },
               {
                 "CommandList": [
@@ -118,7 +118,7 @@
                     "UpdateValues": []
                   }
                 ],
-                "ID": "03c7e607-82b6-4ecf-807e-5a4510b81a91"
+                "ID": "60691f83-29a3-4f3a-b5df-844f22a461eb"
               }
             ]
           },
@@ -127,7 +127,7 @@
             "ReloadData": true
           }
         ],
-        "Text": "确定",
+        "Text": "확인",
         "ClickMode": 1
       },
       "CssName": "button"
@@ -1379,4 +1379,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//jK0NttKqSnpXNJdv3zInB1SaJViGWOsZ6oRFD9cl0+MpedmN69Djy+qB/x9QMh7FVBIkOZEaEchc/l00VIBj4ULk+dJX6FtwljM83LEyypO8vlq2uOb3Mn4R+zQD8Zqz0JNy0k0Ngnz/1a82uQYogXlr4iEWTWBjtU5KPqo3AvYT6sU/FdVXOU3BxV4pRGUaNjlNls29flJqpvKdxn+6lEZ7LDI6+AyNYullg/cBQM6FtWO71fIrVPnWSpJRXR7n+B7taoBzlYhD0DTMrUYwq5eixHkl/RoqPZoA+kp3argPg23OKunnd+5TiQHSXGY89pGrO56F9jnfQHr2eoN6LRy0jgjlNufvCbYh196XpsfUFMFodMtJOY4LBlpYmb7+8lczVCePdCd04hHKA6hS7TyXIl9z69RB87LsfQQAuciyqF0QCNFGiMbUbsmXZlJ1L4p3oEK9y6nMUPIxoVxII0Hal5fx7WwUgGasZ6/bScAYC6ao4qP/z9IZ65lAva++2kZUY2Ku8UmsnQBorr+Pjf7ZHh9PggTm3SSsEJAHOVblGHQg2ne/J27XTsiUw2Oqq6+pCNDOVBLClCOR4NTHjagNpZXkjRfPg6cklFKoHnKhtOBNkejOnWjcDnqi3RfpCQ/ztc4iHNPON6VZSTbJ5iKu+5jFD+cb+ETw8q8D8jR5bNygGIAYVuKB/REkwI9OSZJ/M3SacmPxYr5CJEMDesRvLG08Jgi3X3u6N4hbgxjinD/uwiLK3lSphaZ0z04SF30EaOPMn0LqoACV55DKjWwjTYjuVjAOp7ytDdCPPeCg6FF2u62M8HnMOV1V89EZ1x2LLcGFnZhHLEI6ApN9pM8Hw9vJJpc6WJPfoI0Bd0VCQ68g3oMTFLXFoP76GMa5yZSEX8gtzkBHafwO8o6jRw==|920
+}//GuO0B0JvrUlWp820gw04i3B/ITn1qwTBi60S+V5JLETl1yP//wgHegdYma6eBLURql+yzW2S5WhcILGvlCFnqCBz1iGkpmWtZEcTW4s6nO8dEGQcZ9C4vePftDM4H45mz26oUMVMCpOw6VkpevNNXKYHSDxNOanpr5H2CuiugusKvQKa49dIDHeBcbtutSmjMuxpqXrcGZVrruCBB/wfy+tCk+v1YCcBWDlDcWPXnjmpcjpkPolUaAj3kFLxJvpRdBJxg5Ta4m0zqzOE7da1mL0XW+4qz0FPpSzpwnOVv9sx1QKuyq3rH7teKsECNYYseM4vTCPhgSsRK/JFzI0qIGAoXH87Y0ClatBOcS5qet49ufk/I7f1797ZJcjFAB77B8KyD2sSe5WXu6sX5QlnHHNu9wnOdN7FNIjFlSp91S3qBRx5rN+bzzUxFHW++yLxu9xNpnKNSCF/ZAVr0JzeyJWktNu0Z75nu6sJSzscNCwpzW+fv+NULoyFG6/A/Mo04jQyU8o7x7A2QP0Z7MDGsAjuQh1JxZco9xn+NFOm45evIQhy7RZ7QsIAwQXIQRdX/LM3eFX/zv/oUYGp2AZtmHrIkTYMwuaGnBqmYYbpivK1v+3wBv6XlppBO1juU783Qm4Q7O0CSItmKSzUMhuL82hRATRCaBWXOZDxrxZAVbXWrnolWgJiuEodzsdM4pB8DRGzWrrN0ab0Cr1wGRYuOqqAJ5mmgy0QbDb7x1RnPJ6ukHKj24olhHbJYd4DlQIjnRevZ71uLJe7jceE3wtpRWBwM9tAF9XA20tbra1LWp6tXANb5rQzsYbFXX89otQKMkxxE7TSiDl+LxNrh7DNJ3juxAg1bEc6AuIM5NT0BSLHX8B203zBiL1jMoUvq9hYZN54IyZQQICjWPLFC1ln1A==|920

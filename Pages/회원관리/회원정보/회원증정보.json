@@ -171,8 +171,8 @@
                       }
                     ]
                   },
-                  "value": "新增",
-                  "Id": "e89dc253-b09b-4268-8507-86e09ace3c15"
+                  "value": "신규",
+                  "Id": "d583c2f8-92ca-4933-ad0d-4ad7a6003fb1"
                 },
                 "CommandList": [
                   {
@@ -192,7 +192,7 @@
                     ]
                   }
                 ],
-                "ID": "4cc246b8-7144-42e0-a58a-bc43c887abd5"
+                "ID": "96ca8783-1912-4252-8802-c88bf52f3d2d"
               },
               {
                 "Condition": {
@@ -205,8 +205,8 @@
                       }
                     ]
                   },
-                  "value": "编辑",
-                  "Id": "af3cfac6-7da3-460b-8d6e-cb7dbe52e8de"
+                  "value": "편집",
+                  "Id": "fc16a4ba-67fe-42d7-b725-a896663e81d1"
                 },
                 "CommandList": [
                   {
@@ -215,13 +215,28 @@
                     "ShowConfirm": false,
                     "ConfirmText": "您确定要更新这行记录吗？",
                     "UpdateValues": []
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "회원증상태변경내역테이블",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "변경된회원카드상태",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=회원증정보!L10"
+                        }
+                      }
+                    ]
                   }
                 ],
-                "ID": "7f5c48bb-c3cc-4018-ba8c-624ede3d7a2f"
+                "ID": "becc766b-5b8d-4850-961c-d36a9256ac9b"
               },
               {
                 "CommandList": [],
-                "ID": "84f179ce-6c6b-4d61-85c8-14aac5ec72f2"
+                "ID": "c11870bc-0592-4a02-b5ca-a72a40c0e1f0"
               }
             ]
           },
@@ -1309,4 +1324,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//zSS59VCFUJtXJ3En1Iz7zrKgRDDBZxBDod9mHsoeer61GgmaEW54ejQpYF4e4yjYC77vDdPkDJYklr0TiiDHZatBKqmbNBh2gwJPDw9DOZVy9wsWWNDAXBFIW0FkbcNl1Z4Y7Y+TiBPTU6aX9vjkeScy5IHW+zHjpUhVkL6jF6PX7V+h2ml1zPGVpA9Wim6eJKDRVkoJRJQAS1v85HrWEJ6PZP/xwgKfnH5Y+3Dh+j6q15re59p/nM4sGFZiwYmRTr1cDrwWTm9r1FE5H7qqToc7pCzFH8KsFPhpTEmBvWExc2xVzTYcsdKbNZyo4cSJnRH3Q+g2SWiyS86rHxM4cH/Ijve8CHHci/06xlGNH3EMO2m7Pg2gg1ZNdXQN8c+AdxU9xi783RF6oBTocOKIfc4ttp0ANhukqSGV0/OhxT4Ytm5YXtMNpvLZ9M2ys7TQ+HSWx4fRC0MHDA7r5LUQBCjoXoZ+XrSYE+1+ZhVyMf6davH/5GGwkuO7J/OFDRbfFLEUM+SPQxButEsEeB5HdFF6ncPCf3tcSxt6N5kv11x0w9Im5A0nq/tNWUHHRmhy4peusV37GbTGdowlRYBC+Jnm8ZLl2ybnrT7MXYIvwiVZNPRghf7X42tHYGnHt9dzRazVOSRnahocbjrzId3jHwHospY1oWB2MOTAGGCDXJpvoMyWeA6ldExvALvbXVMSHxZp0hnAKvqSOVFspZh+d8uB61GunMxL43/0ZCF8pETYTvlKCbWQXLCGvoL3g9bb2nKw6x/PtpkXZlLaXl6X8Sw8qzfpfQpPXpkYhYBvYuMHP8Xg81ge41FQTQlvCevyZn8r7tDzoOOCltyt1Zzh2ZGLe4TvyrMlKpIMxzJhlh+cEuTov+nMHCB0XIUo7CqjgjLdHLVn7vWoFG0dZFbiDA==|920
+}//fj1B20LAaZA7YXkBQWoro3Ne71ASSkqaYz+ryuCswVjhjC/8WNnPFjKTpDgZUg358FB2Cm4BSyodoGtyf1VDMvhOV4azs1rvfLmtEiDmSJbAUd6uIPC0z/4VikPrdXM/dkHZ/xnoHtH5IxzIdzxSwIIhMlchOV751A0Ba6YYGf1xG03s6ERzJmzJ9UhILYgqehlQUwWsX//EFF9RvueF6/A/yn4rW7DJMt8prbwnb/O1QvT5QMd647Tt7OQRBgeUqgkpf9F0XRJCwi49jpfrkWAhIMl80u5GSgq29sslL85cdU495dTWPXE+3WaR6sfoT99g/CgAcLiFmEdWW3l82T1xu89EeKuHIAhGaKfjAMc8mB+ajIqRMJw0Gr9IFIKrnkKXpozSnrf5ZHUd0gTFIlXLdW+cYrTGmlmrkdzddchEPr/vIb06C8o1Ind04I/3wOlJyyfBEVpLTN/lkLOxTZVsQ74hI+AAj0a/2aHamd3cX31zu7Tdz0+7okEnVx71D5hpfabeBG/3tU2iA63Uu401xV9asDdiCB3ec+pjr0KUdEDwWk18K1bYoFtrjaRYDq2dQihQPp/3Q0GxcAC2VSQg1vw06E5nsxEjuD6yxVaRGbibUAFD+4LoRn7rV+slssaREHT5hl8BOWkjEn05oQgfAd6y62q+9aWQs+kx+cuSRBZAbKTL8XzGWsmEuq/ppHp4IV9GR9HCJJnK56J9gyWivA8iYLGLoUSo2+gvoa9pVfThzNxnalnPEhak79WLMXeTlF88otXhFDysABcJ3YpFLLnz2SRgoFUohjE2ISyR7Wubc/mVKtE0Fcyy2IeAC5iox2uLFkV3zISjUR4NKJAyNT67nPPXPqWrORKYXIytmFKC6uPSZXvxFvGdouGqW6yBGGj/x3MC8Kve1frGCg==|920

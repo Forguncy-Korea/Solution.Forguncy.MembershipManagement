@@ -79,29 +79,11 @@
   },
   {
     "ModuleName": "PCPage/회원유형목록표",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:18:05.4110224+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\회원유형\\회원유형목록표.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원유형",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:17:47.2783239+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\회원유형\\회원유형.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/주페이지/회원신분증유형",
@@ -109,29 +91,11 @@
   },
   {
     "ModuleName": "PCPage/신분증유형목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:17:29.6126897+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\회원신분증유형\\신분증유형목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/신분증유형",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:17:18.2106104+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\회원신분증유형\\신분증유형.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/주페이지/회원카드상태",
@@ -139,29 +103,11 @@
   },
   {
     "ModuleName": "PCPage/회원카드상태표",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:18:38.8463883+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\회원카드상태\\회원카드상태표.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원카드상태",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:18:27.146686+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\회원카드상태\\회원카드상태.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/주페이지/지불유형",
@@ -169,29 +115,11 @@
   },
   {
     "ModuleName": "PCPage/지불유형표",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:16:54.0495967+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\지불유형\\지불유형표.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/지불유형",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:15:42.9793049+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\지불유형\\지불유형.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/주페이지/상품및서비스",
@@ -199,29 +127,11 @@
   },
   {
     "ModuleName": "PCPage/상품및서비스목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:08:42.0063336+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\상품및서비스\\상품및서비스목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/상품및서비스세부정보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:12:10.1314421+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\상품및서비스\\상품및서비스세부정보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/회원관리",
@@ -233,29 +143,11 @@
   },
   {
     "ModuleName": "PCPage/카드상태변경목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:21:00.5100784+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\카드상태변경\\카드상태변경목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/카드상태변경",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:20:37.1645068+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\카드상태변경\\카드상태변경.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/회원관리/충전",
@@ -263,29 +155,11 @@
   },
   {
     "ModuleName": "PCPage/회원재충전",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:19:33.5291638+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\충전\\회원재충전.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원충전목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:20:18.3019528+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\충전\\회원충전목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/회원관리/포인트사용",
@@ -293,29 +167,11 @@
   },
   {
     "ModuleName": "PCPage/포인트사용목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:22:32.9566303+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\포인트사용\\포인트사용목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/포인트사용",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:21:29.6093489+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\포인트사용\\포인트사용.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/회원관리/회원소비",
@@ -323,16 +179,7 @@
   },
   {
     "ModuleName": "PCPage/회원소비목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:25:29.6458408+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원소비\\회원소비목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원소비",
@@ -344,29 +191,11 @@
   },
   {
     "ModuleName": "PCPage/회원업그레이드",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:25:51.940946+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원업그레이드\\회원업그레이드.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원업그레이드목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:26:15.6067951+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원업그레이드\\회원업그레이드목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/회원관리/회원정보",
@@ -374,55 +203,19 @@
   },
   {
     "ModuleName": "PCPage/회원정보센터",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:31:39.6669589+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원정보\\회원정보센터.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원증정보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:32:06.6772493+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원정보\\회원증정보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원정보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:27:06.1527389+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원정보\\회원정보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/회원정보_세부정보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:28:38.0649352+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\회원관리\\회원정보\\회원정보_세부정보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/분실신고성공",
@@ -534,29 +327,11 @@
   },
   {
     "ModuleName": "PCPage/메인",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:33:56.5408306+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\메인.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/메뉴마스터페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:34:25.6578282+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\메뉴마스터페이지.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
@@ -596,25 +371,6 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:53:08.1481845+09:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": [
-      "Upload\\7a433a8b-fc8e-4d08-9929-4c1723d2fe97_690e8ef119c91a094258e84ff2045909.jpg",
-      "Upload\\7a433a8b-fc8e-4d08-9929-4c1723d2fe97_690e8ef119c91a094258e84ff2045909.small.jpg",
-      "Upload\\9fc691c9-94b3-4749-ae96-c8f7b390db90_1a502db9ba2150d5cf9f2045b1b4a55d.jpg",
-      "Upload\\9fc691c9-94b3-4749-ae96-c8f7b390db90_1a502db9ba2150d5cf9f2045b1b4a55d.small.jpg",
-      "Upload\\b572aa9d-52e2-4d20-8042-db7d5596608d_a34211e016373c3ec0781416deb3e19b.jpg",
-      "Upload\\b572aa9d-52e2-4d20-8042-db7d5596608d_a34211e016373c3ec0781416deb3e19b.small.jpg",
-      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.jpg",
-      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.medium.jpg",
-      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.small.jpg",
-      "Upload\\c9efe898-c1ec-44b7-9600-19f833aa02ec_690e8ef119c91a094258e84ff2045909.jpg",
-      "Upload\\c9efe898-c1ec-44b7-9600-19f833aa02ec_690e8ef119c91a094258e84ff2045909.small.jpg"
-    ]
+    "ModuleType": 26
   }
 ]

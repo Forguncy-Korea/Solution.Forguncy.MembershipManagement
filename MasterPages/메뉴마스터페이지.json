@@ -86,7 +86,7 @@
             "PageName": "회원정보",
             "PassValues": [
               {
-                "Source": "新增",
+                "Source": "신규",
                 "TargetCell": {
                   "SerializeProperty": "=회원정보!A1"
                 }
@@ -105,6 +105,9 @@
             "Value": "메인",
             "Text": "메인",
             "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -120,6 +123,9 @@
             "Value": "회원센터",
             "Text": "회원센터",
             "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -135,6 +141,9 @@
                 "Value": "회원정보목록",
                 "Text": "회원정보목록",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -153,6 +162,9 @@
             "Value": "회원이력관리",
             "Text": "회원이력관리",
             "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "FGC_Anonymous"
             ],
@@ -161,6 +173,9 @@
                 "Value": "충전이력",
                 "Text": "충전이력",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -177,6 +192,9 @@
                 "Value": "소비이력",
                 "Text": "소비이력",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -193,6 +211,9 @@
                 "Value": "포인트사용내역",
                 "Text": "포인트사용내역",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -209,6 +230,9 @@
                 "Value": "회원업그레이드이력",
                 "Text": "회원업그레이드이력",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -225,6 +249,9 @@
                 "Value": "회원카드변경이력",
                 "Text": "회원카드변경이력",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -243,6 +270,9 @@
             "Value": "데이터설정",
             "Text": "데이터설정",
             "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "FGC_Anonymous"
             ],
@@ -251,6 +281,9 @@
                 "Value": "회원상태",
                 "Text": "회원상태",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -266,6 +299,9 @@
                 "Value": "회원유형",
                 "Text": "회원유형",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -281,6 +317,9 @@
                 "Value": "지불방식",
                 "Text": "지불방식",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -297,6 +336,9 @@
                 "Value": "신분증유형",
                 "Text": "신분증유형",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -312,6 +354,9 @@
                 "Value": "상품서비스",
                 "Text": "상품서비스",
                 "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -329,11 +374,14 @@
             "Value": "도움말..",
             "Text": "도움말..",
             "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
             "CommandList": [
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-                "ID": "520ea774a1aa4528ae1a3980ed25d7f3"
+                "ID": "cb705e9e6e264032bc20a72132a63562"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -860,4 +908,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//8qk2AiJD5sQjwCz6ZFXZjoBO/CKhfvRRVt/d2EOaUNdILIEkvyX8BNNf4h2ANvjYYWz+7gOXJnEw6U7sclxcVynMKDNzasg+kxV3KiqbQdx5rGDHXoOaSf+zF2UnCgkbD9BT4yKoQ/x1LRlu6eVelRQbjpoh5wNA9F+C2m3m7qj55rmMuGOw7c9DL6H9k91ER1/CFhdZDyIUaFcqBsQUXLRVAAkWbENrcRBRbR0elpNhZSrmcllmfrznSKA62Q1zwn7G1nYMb39NsdI5XzDwoEEr2TH9SIkLdGsd2xskgCt5HodH2F8UvHMCkChUNK2IgYNLmKj8cRg1UQlVyo6qG5sy1iWVRa5cdVFOt4aPB5RTGQMD/EiWZaup1TROWqIho9PAF4ytbtm9CpK5wyFojqXm4rCCCou8SC1/M0YJvUVrwHOrsQlv4roYu2jrXAr1GOoAwh6p1yEsoMKhbUaj7oBi1t4AgmIFuCb9+XwjTXfQDyFUFvEeaX/ySX66N17aYYAdidEzqIlizrGpKxhGuo9sCtMWhaxfgzV06EuLtK0CdQJyZgvQvHn1By1MLFUxgQp5ojMnVQBEXEM3sNMlQDNJaP1/ZzfVTjSgDZ/T9lzWZ0GeuMiLFoBBwo3N0ZDoF/xL25yM6Txo7wr9mkukT48LIRuuGyLJkKEhJXST7THzKEsu1snAfrlhpULEp6lcZsEjGiOyryrAUuqdUiLDRP5cF2zNz9Z0Y5KKtE9w6TwPSYgz9aSWj6M6xagJ1LC9qLn4ce8zaHSCV4X5rVb56lz0zcfAkZlR3TrVOFp3tN9n1VqiLAJhgDSfV0chYqCYW4RsUVOQHwgaEtm474HEou1o+G6Q8CqW3s/j/sRKljlmgy3q4whfQoNc+p+ytloy0g2du8XJeFx6iOAA65s/UA==|920
+}//qgj+t8LealvgBikUE5+dGJ2uV5BsCuckPU/GoP961HjG8KkTarePaOp5CXpqul8lEdlWxMhRZ2X1h04GTHz4pcV37170wajZ371C3rkpIHeDskx5UhfrwFfZyjlpvZI4FTiAJGTGS+bewCovL8PyDesCtkueC/ZJ0+P2Tmdu1Wja00/5nudlY3gSfNOXhp+QqQzD9MxWmKsRFbIJlnmkdWzZaH6JKwoN7+6yMPSWjlvIxJKeRLqSmscGqcJQzlcGNH8HU2uN3HD94L8IDk86mEJUFpCYdHY8oCDseatQ8wSJO3XHs1veatCzpOvffSzWtgFkHKW/wfQGeGqZ22qBMTKIuv8XI/58lg/djp1fUyOqEXusQtu3jJqkm0RoC+emmMACl+QNsDLIOs78sJ1nP2MLveZnDRWSVBVU3jxD5ae4koUSX3/Wxn3RydZkxWTHeUYBmk7DNd8tALcA1ycThzfJZts3PAi0s2Mzyf9ayg8E4F5rfCibiau//fEsATTbzib4PDQ0svuu5w3asHD0VqD940o0otRuj5Iz9nAji7zxuCIcIscYd/mI9vqcqPdESQN/MMNZTbf+ku37Slu6nPLdkJrw18LZWoEzpT7TCfLc9OiwONWd1zzybZkJsOXBXrpi0dTc1fhCm4NE5UYuM/n8cseh0OB39fk/gsvf8Ng/nIwY4HbsasWZIfOWoUw4AfqAC+GBCE8xwemDQPUzGQOUein3ceGdclO1ybIpaGqbmX8ig8lqGZ4B5zKvwcsOfNhTpoZElup/XU+zq7uPV5zdiu5E/Skz4vdmR8r3PFnIIS+DPYsweDi7PHLgD++TZ72fCCONk6GYnDlrFNsZLaUX3P+prYoHerIxwyU83pjyaBj4X4tmu4cFJPROzpMvqT0/KVoFKIt1zl/MZNgG7g==|920

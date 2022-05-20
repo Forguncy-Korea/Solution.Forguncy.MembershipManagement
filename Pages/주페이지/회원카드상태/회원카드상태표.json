@@ -42,7 +42,7 @@
             "PageName": "회원카드상태",
             "PassValues": [
               {
-                "Source": "新增",
+                "Source": "신규",
                 "TargetCell": {
                   "SerializeProperty": "=회원카드상태!A1"
                 }
@@ -71,7 +71,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f281182d-6b26-44de-b01e-5a2088ca1bd6"
+          "Id": "4bf54a67-44a6-40ed-b42e-d8b4da5f6add"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -99,7 +99,7 @@
             "PageName": "회원카드상태",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "편집",
                 "TargetCell": {
                   "SerializeProperty": "=회원카드상태!A1"
                 }
@@ -1516,4 +1516,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//z15UF//RrIe5P/ZTJfcmXQiGiDlbdMDlN/bBOnToXzHtS17cuzk5xZ3byXTbxElAqQi1Hg/Euuoi0P0h005qSBusRn+vFvN6j6qtCEnjFoY+0lfcmx9IbEcKjqj8UZcZD+EReOoO8BSTG3Q0o2faAuCqlcnS1nbVGQksJiv9lxaUwXSp+LtwgfiylCR7ukvfhDnKrefwJfYab/9jUDU7Q7XWk2AkPFCNHzdVBZ/8lfzy9q0u6b4QvhGb46bcG1+63YULks8tdPr+6QeiJutlUr7Jb8uhQkyHq2nbXIAcRlZ9Ehm1VA8Ki4Ezplkk+esEfvppdWQvtlqIr0ArSLYkg3zF0cZ9Fkj2wFOa74384AKd/53GrTVAWDhritL3/98NAqw3KOu8EURQqYk0pfc4ePir4eHIf9vzqFf4NRdeodYAjgC82lKLdB3myE5EihYGxocX5jDymbDi9pJyPp/7f5YQGDCoMvIfQQr0+mPxpPlRdiq7Q+4ab8m71xE+YUDhnxCDmjBqm30IK1rqjPqeAMYtuOIS2hBsGficBF4XJfW6XM/ajzYOIx9W3FmX7QmwCnHNEJzZ7UaCnD+RWZxG+MO1t4FS4aeG5ePDhHU47e1BCvgHPMR48h1wPM3jxkVuwnDvgU+XI3ay/GDgS7G9FilTsJsQq7jXiUk/vmCOja/lw4PKIJlc0c3LOzl2wtZjUK58vX1guqrPFKIEquFvbM7rEiBc5iZxh1EolU+5lPeDClhymr06tHevzu3a5nkL755nC13lvAXxGouy1BaRAYueO9lIDrjy5O0switNBAaf0CxFzi3T9JGYRJHJBKpdrDfmZlP/nKao5u7vf5SPpYQndWMcV6em3q2mzaJcEvYnb/t24cF3Ltyj519Mb3AnQQdRlK3XnnL2+CKSffqX8g==|920
+}//H77bB2yMjjLQ4cmj4n/ag2i3b8g31arcvUa0cjfDRCUszm5kcYRVuTgg03lNp14hN1hGji1hQTo+mLKtfisa1XZofSuLxsMdTM0F+oJd5QUUs0OYzDOCO5+87rrE5nU++rghDKlSx7ArG2AmT+TjXR6vv4o0sY9ld6R6Z3+JQblSZsUYnp4oc0phJephQ6pGdIEKGpbB4NNM5/XzLxowFAlJ0EEUX4dY5x6Zh4oDbqZwEr2fa4RRcvtViC00+NtoG9Lh+8PQsETVcCZ8lOslHMZE0r1kybXP6COofyCh66MtxZ5m1Q5AQtTxIFmHekdJ6A0gQezq2gZGEuRD6R0Qpo/qSeGRye9f0cI7Oi+Cu+CN3TVgUuTqwaRvvAH+y09wG0YtqkwpZJh2iUhSF2Ocgl0vp2BdWQgDxGYZq8lFFw1778DQhdwtycsnfunkxMRoUXiMzqO/gCnPxlmU1EOXu02AR/HkomMRPZyUPZQnztnEe7qLeHxKpO06q9uOZtbZT3gmOUCf34k4mIkwwVYsX3K3YrjJ1EZiGyQGI0Z2XqpjltLRY752euZVgCpTIR1QTAtjyUbJobOzn7XmTrT0400mJGUJX+TXJy+LuCpu8lSayb2A+Dy+7JzuZ5lqxwpwkNyCqvumgyX1ObroXsfY+RtjQpI7XELFeVchQ6SIq6AdlzkX2da+h3gprlmO4qMmiDHqVhDxrCEHmar4J6ZVflKlFnG4i2A75AOs2BXwoFh4wD/j9mcHeptNdclyFzFWcbEQDme74yX+KS/lo0mh0qlSptkfXndDqsFyOMv3aJMElug8bZ9Ok1Hji4eRpQ06YexYYZPyuHgzn1BKX1QHu06hNNagKlgD0IsxmDxdIh8MBlf3eTWaxGfo8MJISzj5Y6unNFBnUo8TziiJWbkM0A==|920
