@@ -127,29 +127,11 @@
   },
   {
     "ModuleName": "PCPage/상품및서비스목록",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:04:37.4479676+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\상품및서비스\\상품및서비스목록.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/상품및서비스세부정보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-05-20T13:05:09.0182479+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주페이지\\상품및서비스\\상품및서비스세부정보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/회원관리",
