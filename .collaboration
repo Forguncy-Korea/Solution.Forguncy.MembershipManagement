@@ -237,7 +237,16 @@
   },
   {
     "ModuleName": "PCPage/카드상태변경",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:20:37.1645068+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\카드상태변경\\카드상태변경.json"
+    ]
   },
   {
     "ModuleName": "Pages/회원관리/충전",
