@@ -396,7 +396,16 @@
   },
   {
     "ModuleName": "PCPage/회원증정보",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:32:06.6772493+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\회원관리\\회원정보\\회원증정보.json"
+    ]
   },
   {
     "ModuleName": "PCPage/회원정보",
