@@ -83,7 +83,16 @@
   },
   {
     "ModuleName": "PCPage/회원유형",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-05-20T13:17:47.2783239+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\주페이지\\회원유형\\회원유형.json"
+    ]
   },
   {
     "ModuleName": "Pages/주페이지/회원신분증유형",
